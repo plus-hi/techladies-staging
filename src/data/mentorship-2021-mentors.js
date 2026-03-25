@@ -24,12 +24,13 @@ export const mentorsData = {
         link: "https://www.linkedin.com/in/angie-sasmita/",
         description: (
           <>
-            I&apos;m a technology consultant who&apos;s passionate in building highly
-            usable products for our users. I&apos;m a polyglot with special interest
-            in mobile technologies. I&apos;m also a fervent advocate of Agile
-            practices such as TDD and CI/CD. Diversity and equal opportunity in
-            tech industry is important for me. If you are interested in entering
-            the tech industry but unsure of how, I&apos;m happy to connect!
+            I&apos;m a technology consultant who&apos;s passionate in building
+            highly usable products for our users. I&apos;m a polyglot with
+            special interest in mobile technologies. I&apos;m also a fervent
+            advocate of Agile practices such as TDD and CI/CD. Diversity and
+            equal opportunity in tech industry is important for me. If you are
+            interested in entering the tech industry but unsure of how, I&apos;m
+            happy to connect!
           </>
         ),
       },
@@ -40,12 +41,12 @@ export const mentorsData = {
         description: (
           <>
             Currently a Software Developer at Wise (TransferWise) with 6 amazing
-            years of software development experience up her sleeves. She&apos;s very
-            passionate about increasing female count in the IT industry. Saloni
-            has worked on softwares in a variety of industries including
-            government, finance and IOT space. She&apos;s a part of TechLadies for
-            the past 4 years from volunteering at coding workshops to being a
-            Bootcamp coach and now a Mentorship Lead and a mentor.
+            years of software development experience up her sleeves. She&apos;s
+            very passionate about increasing female count in the IT industry.
+            Saloni has worked on softwares in a variety of industries including
+            government, finance and IOT space. She&apos;s a part of TechLadies
+            for the past 4 years from volunteering at coding workshops to being
+            a Bootcamp coach and now a Mentorship Lead and a mentor.
           </>
         ),
       },
@@ -123,9 +124,9 @@ export const mentorsData = {
           <>
             Ha is a Senior Product Designer at Carousell and is currently
             designing Trust and Social at Carousell. Previously she worked at
-            ReferralCandy and Keio-CUTE Center (NUS). She loves tech, innovation and
-            people. Ha is also a &apos;mediocre&apos; hiphop dancer and figure sketching
-            artist in her past time.
+            ReferralCandy and Keio-CUTE Center (NUS). She loves tech, innovation
+            and people. Ha is also a &apos;mediocre&apos; hiphop dancer and
+            figure sketching artist in her past time.
           </>
         ),
       },
@@ -155,9 +156,9 @@ export const mentorsData = {
           <>
             Ankita is currently a Product Manager at Wise! She is helping to
             build out products in different markets in Asia and understand the
-            needs of Wise&apos;s local customers. Before Wise, she lived in London
-            and was a Product Manager for a beauty box called Birchbox. She
-            relocated to Singapore just before the pandemic and has started
+            needs of Wise&apos;s local customers. Before Wise, she lived in
+            London and was a Product Manager for a beauty box called Birchbox.
+            She relocated to Singapore just before the pandemic and has started
             illustrating in her free time. (P.S. You can check out her comic
             here: https://www.instagram.com/smallfry.scribbles/ )
           </>
@@ -268,8 +269,8 @@ export const mentorsData = {
             Olivia has accumulated 6+ years of experience on Analytics across
             various industries and set up, gaining expertise on data
             instrumentation and solution design, product experimentation and
-            analytics, to data modeling and heuristics. She&apos;s now a Data Analyst
-            at Google, where she leverages analytics and data sciences
+            analytics, to data modeling and heuristics. She&apos;s now a Data
+            Analyst at Google, where she leverages analytics and data sciences
             techniques to fight and prevent abuse on numerous Google products.
             In her spare time, she shares about Data Analytics techniques and
             career on Medium.

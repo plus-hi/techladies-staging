@@ -166,7 +166,7 @@ export default function Home() {
                         src={image}
                         className={clsx(
                           "card-img-top",
-                          styles.programsCardImage
+                          styles.programsCardImage,
                         )}
                       />
                       <div className="card-body">

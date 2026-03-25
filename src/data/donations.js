@@ -1,4 +1,4 @@
-const exp =  [
+const exp = [
   {
     amount: 10,
     amountClass: "text-primary",
@@ -28,7 +28,9 @@ const exp =  [
     amount: 100,
     amountClass: "text-success",
     title: "Patron",
-    description: <>This covers a month&apos;s worth of tools and products we use.</>,
+    description: (
+      <>This covers a month&apos;s worth of tools and products we use.</>
+    ),
     buttonClass: "btn-success",
     url: "https://www.paypal.com/paypalme/learnemy/100",
     hoverBackgroundClass: "bg-success",
@@ -37,7 +39,9 @@ const exp =  [
     amount: 250,
     amountClass: "text-danger",
     title: "Super Patron",
-    description: <>This covers logistics and refreshments for one small workshop.</>,
+    description: (
+      <>This covers logistics and refreshments for one small workshop.</>
+    ),
     buttonClass: "btn-danger",
     url: "https://www.paypal.com/paypalme/learnemy/250",
     hoverBackgroundClass: "bg-danger",

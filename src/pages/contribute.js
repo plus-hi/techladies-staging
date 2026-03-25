@@ -46,8 +46,8 @@ export default function Home() {
                 empowered women to switch careers into tech, but we need help.
                 <br />
                 <br />
-                Join us in our mission to increase women&apos;s participation in the
-                tech industry!
+                Join us in our mission to increase women&apos;s participation in
+                the tech industry!
               </p>
               <a
                 className="btn btn-primary"
@@ -65,9 +65,9 @@ export default function Home() {
             <h3 className="mb-4">Ways you can volunteer</h3>
             <p className="text-primary font-weight-bold">
               TechLadies is led by a group of core team leaders and supported by
-              a larger group of ad hoc helpers. Join us if you&apos;re passionate
-              about gender diversity in tech, want to learn new skills, and meet
-              like-minded peers!
+              a larger group of ad hoc helpers. Join us if you&apos;re
+              passionate about gender diversity in tech, want to learn new
+              skills, and meet like-minded peers!
               <br />
               <br />
               We are currently recruiting volunteers for 2026. Please indicate
@@ -116,9 +116,7 @@ export default function Home() {
                   We are looking for partner companies that provide speakers,
                   mentors, coaches, and venue or financial sponsorship. Do reach
                   out to{" "}
-                  <a href=" mailto:hello@techladies.co">
-                    hello@techladies.co
-                  </a>{" "}
+                  <a href=" mailto:hello@techladies.co">hello@techladies.co</a>{" "}
                   to start a conversation.
                 </p>
               </div>
@@ -151,10 +149,10 @@ export default function Home() {
               ></img>
 
               <p>
-                Kickstart and grow women&apos;s careers in tech! Through TechLadies
-                Mentorship, we have helped women raise their visibility in tech,
-                build their portfolios, and ace their job interviews. To
-                continue this program in 2026, we are looking for{" "}
+                Kickstart and grow women&apos;s careers in tech! Through
+                TechLadies Mentorship, we have helped women raise their
+                visibility in tech, build their portfolios, and ace their job
+                interviews. To continue this program in 2026, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
@@ -174,8 +172,8 @@ export default function Home() {
                 <b>
                   <i>Ideal profile:</i>
                 </b>{" "}
-                You have good project management skills and is able to commit about
-                6 hours per month.
+                You have good project management skills and is able to commit
+                about 6 hours per month.
               </p>
 
               <h5>Ad Hoc: ~30 Mentors</h5>
@@ -218,14 +216,15 @@ export default function Home() {
 
               <p>
                 Create amazing events every quarter that connect and share
-                insights on the tech industry with our community. We are looking for{" "}
-                <b>3 - 4 Community Leads. </b>
+                insights on the tech industry with our community. We are looking
+                for <b>3 - 4 Community Leads. </b>
               </p>
 
               <h5>Core Team: 3 - 4 Community Leads</h5>
               <p>
-                Connect and grow the TechLadies community in Asia! Community Leads plan and create amazing TechLadies events! You plan
-                the events calendar, run quarterly in-person and online events,
+                Connect and grow the TechLadies community in Asia! Community
+                Leads plan and create amazing TechLadies events! You plan the
+                events calendar, run quarterly in-person and online events,
                 source logistics vendors and partnerships for in-person events,
                 and inviting speakers.
               </p>
@@ -258,8 +257,9 @@ export default function Home() {
               ></img>
 
               <p>
-                Strategise and develop content for our social media, website and newsletter! This team
-                manages our monthly newsletter Tech List, social media and website. We are looking for{" "}
+                Strategise and develop content for our social media, website and
+                newsletter! This team manages our monthly newsletter Tech List,
+                social media and website. We are looking for{" "}
                 <b>3 -4 Communication Leads & Communication Lead (Website).</b>
               </p>
 
@@ -267,8 +267,9 @@ export default function Home() {
               <p>
                 TechLadies is a community - and this role is the heart of it!
                 You will grow and engage with the community via our social media
-                channels, monthly newsletter Tech List, and our website. You are also empowered to come up with new creative
-                ideas and have the resources to execute on them!
+                channels, monthly newsletter Tech List, and our website. You are
+                also empowered to come up with new creative ideas and have the
+                resources to execute on them!
               </p>
               <p>
                 <b>
@@ -277,18 +278,14 @@ export default function Home() {
                 You should be comfortable with digital marketing and community
                 engagement, including maintaining a Facebook page, Facebook
                 group, Twitter, Instagram, and creating newsletters. You will
-                spend roughly 5 hours every month.
-
-                People look to the TechLadies website and social media for information on
-                programming, our activities, and discover stories of awesome
-                women in tech. You will help create these amazing content! We
-                are also looking for people who
-                know their way around Photoshop, Illustrator, or just good&apos;ol
-                Canva to help us with our marketing collaterals.
-
-                For Communication Lead (Website), you should also be comfortable with HTML, GitHub and CSS.
-
-                
+                spend roughly 5 hours every month. People look to the TechLadies
+                website and social media for information on programming, our
+                activities, and discover stories of awesome women in tech. You
+                will help create these amazing content! We are also looking for
+                people who know their way around Photoshop, Illustrator, or just
+                good&apos;ol Canva to help us with our marketing collaterals.
+                For Communication Lead (Website), you should also be comfortable
+                with HTML, GitHub and CSS.
               </p>
 
               <a

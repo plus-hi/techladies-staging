@@ -7,28 +7,16 @@ export default [
   {
     date: "August 2026",
     title: "Speed Mentorship Matching Event",
-    description: (
-      <>
-        Our new way of matching mentors and mentees.
-      </>
-    ),
+    description: <>Our new way of matching mentors and mentees.</>,
   },
   {
     date: "September 2026 - November 2026",
     title: "Mentorship Program",
-    description: (
-      <>
-        The journey begins for Mentors and Mentees
-      </>
-    ),
+    description: <>The journey begins for Mentors and Mentees</>,
   },
   {
     date: "November 2026 (Projected)",
     title: "Final Project Showcase",
-    description: (
-      <>
-        
-      </>
-    ),
+    description: <></>,
   },
 ]

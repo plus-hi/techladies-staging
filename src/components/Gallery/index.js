@@ -31,7 +31,7 @@ function Gallery({ children, startIndex = 0, intervalMs = 5000 }) {
             <span
               className={clsx(
                 styles.selectorItem,
-                index === selectedIndex && styles.selectorItemActive
+                index === selectedIndex && styles.selectorItemActive,
               )}
             />
           </button>

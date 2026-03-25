@@ -34,7 +34,7 @@ function BootcampBuilders(props) {
                   <p className="align-top text-small">{description}</p>
                 </div>
               </div>
-            )
+            ),
           )}
         </div>
         <div
@@ -61,7 +61,7 @@ function BootcampBuilders(props) {
                   <p className="align-top text-small">{description}</p>
                 </div>
               </div>
-            )
+            ),
           )}
         </div>
         <div className="row">

@@ -1,20 +1,20 @@
 import { useState } from "react"
 import Head from "next/head"
 
-import { mentorsData } from "../data/mentorship-2021-mentors"
+import { mentorsData } from "../../data/mentorship-2021-mentors"
 
-import Accordion from "../components/Accordion"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import MentorsCard from "../components/MentorsCard"
-import Gallery from "../components/Gallery"
-import TestimonialCard from "../components/TestimonialCard"
+import Accordion from "../../components/Accordion"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import MentorsCard from "../../components/MentorsCard"
+import Gallery from "../../components/Gallery"
+import TestimonialCard from "../../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2022"
-import programsFAQ from "../data/mentorship-faq.js"
-import mentorshipTestimonials from "../data/mentorship-testimonials.js"
+import mentorshipTimeline from "../../data/mentorship-timeline-2022"
+import programsFAQ from "../../data/mentorship-faq.js"
+import mentorshipTestimonials from "../../data/mentorship-testimonials.js"
 
-import Modal from "../components/Modal"
+import Modal from "../../components/Modal"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -36,14 +36,15 @@ export default function Home() {
             <div className="col-md-6">
               <h1 className="large-line-height">TechLadies Mentorship 2022</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship provides women
-                with personal career guidance from experienced industry
-                practitioners as they grow their career in Software Engineering,
-                UI/UX Design, Data Science/Engineering/Analysis and Product
-                Management.
+                TechLadies Mentorship provides women with personal career
+                guidance from experienced industry practitioners as they grow
+                their career in Software Engineering, UI/UX Design, Data
+                Science/Engineering/Analysis and Product Management.
                 <br />
                 <br />
-                If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
+                If you are interested in contributing your expertise to mentor
+                junior professionals or recent graduates, we would love for you
+                to join us!
               </p>
               <div className="row">
                 <div className="col-md-12">
@@ -52,7 +53,6 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                     href=""
-  
                   >
                     Applications are now closed
                   </a>
@@ -120,36 +120,47 @@ export default function Home() {
               />
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You are passionate about empowering others to succeed in their career.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You are passionate about empowering others to succeed in their
+                career.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You desire to make a difference for aspiring women in Tech.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You desire to make a difference for aspiring women in Tech.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You believe mentoring is a two-way learning - for you and your mentees.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You believe mentoring is a two-way learning - for you and your
+                mentees.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You want to contribute to the Tech community with your time and expertise.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You want to contribute to the Tech community with your time and
+                expertise.
+              </h6>
             </div>
           </div>
         </div>
@@ -184,7 +195,7 @@ export default function Home() {
                     name={name}
                     message={message}
                   />
-                )
+                ),
               )}
             </Gallery>
           </div>
@@ -193,7 +204,9 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2022</h2>
+              <h2 className="text-center mb-5">
+                Meet Our TechLadies Mentorship Core Team 2022
+              </h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
@@ -225,7 +238,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
 
         <div className="container py-6">
           <div className="row">
@@ -280,8 +292,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"
@@ -325,7 +337,7 @@ export default function Home() {
                         <p>{description}</p>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>

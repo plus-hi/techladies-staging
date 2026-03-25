@@ -44,7 +44,7 @@ function EmailSubscription() {
             name="email"
             className={clsx(
               "form-control",
-              styles.emailTextfieldWithRightButton
+              styles.emailTextfieldWithRightButton,
             )}
             placeholder="E-mail address"
             title="Please enter an email address"

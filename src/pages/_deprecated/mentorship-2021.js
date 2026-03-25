@@ -1,18 +1,18 @@
 import { useState } from "react"
 import Head from "next/head"
 
-import { mentorsData } from "../data/mentorship-2021-mentors"
+import { mentorsData } from "../../data/mentorship-2021-mentors"
 
-import Accordion from "../components/Accordion"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import MentorsCard from "../components/MentorsCard"
+import Accordion from "../../components/Accordion"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import MentorsCard from "../../components/MentorsCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2021"
-import programsFAQ from "../data/mentorship-faq.js"
+import mentorshipTimeline from "../../data/mentorship-timeline-2021"
+import programsFAQ from "../../data/mentorship-faq.js"
 
-import Modal from "../components/Modal"
-import EmailSubscription from "../components/EmailSubscription"
+import Modal from "../../components/Modal"
+import EmailSubscription from "../../components/EmailSubscription"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -309,7 +309,7 @@ export default function Home() {
                         <p>{description}</p>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>

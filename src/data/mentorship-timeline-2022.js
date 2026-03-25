@@ -7,28 +7,16 @@ export default [
   {
     date: "July 2022",
     title: "Menteeship Applications Open",
-    description: (
-      <>
-        Application for mentees.
-      </>
-    ),
+    description: <>Application for mentees.</>,
   },
   {
     date: "August 2022 - October 2022 (Projected)",
     title: "Mentorship Program",
-    description: (
-      <>
-        The journey begins for Mentors and Mentees
-      </>
-    ),
+    description: <>The journey begins for Mentors and Mentees</>,
   },
   {
     date: "November 2022 (Projected)",
     title: "Final Project Showcase",
-    description: (
-      <>
-        
-      </>
-    ),
+    description: <></>,
   },
 ]

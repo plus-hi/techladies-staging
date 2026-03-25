@@ -28,7 +28,7 @@ const addContact = async (req, res) => {
             message: "Unable to add the contact.",
           },
         })
-      }
+      },
     )
 }
 

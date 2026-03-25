@@ -150,7 +150,8 @@ export default function Home() {
                 </li>
                 <li>
                   Your account of what occurred. If there is a publicly
-                  available record (e.g. a screenshot) please include a link.{" "}
+                  available record (e.g. a screenshot) please include a
+                  link.{" "}
                 </li>
                 <li>
                   Any extra context you believe existed for the incident.{" "}
@@ -181,7 +182,8 @@ export default function Home() {
                 </li>
                 <li>
                   Your account of what occurred. If there is a publicly
-                  available record (e.g. a screenshot) please include a link.{" "}
+                  available record (e.g. a screenshot) please include a
+                  link.{" "}
                 </li>
                 <li>
                   Any extra context you believe existed for the incident.{" "}

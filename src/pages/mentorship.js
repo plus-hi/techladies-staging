@@ -221,7 +221,7 @@ export default function Home() {
                     name={name}
                     message={message}
                   />
-                )
+                ),
               )}
             </Gallery>
           </div>
@@ -349,7 +349,7 @@ export default function Home() {
                         <p>{description}</p>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>

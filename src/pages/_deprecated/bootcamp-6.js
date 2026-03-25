@@ -1,15 +1,15 @@
 import Head from "next/head"
-import Accordion from "../components/Accordion"
-import bootcampFAQ from "../data/bootcamp-faq.js"
+import Accordion from "../../components/Accordion"
+import bootcampFAQ from "../../data/bootcamp-faq.js"
 
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import BootcampBuilders from "../components/BootcampBuilders"
-import bootcampTimeline from "../data/bootcamp-timeline"
-import bootcampBuilders from "../data/bootcamp-6-builders"
-import EmailSubscription from "../components/EmailSubscription"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import BootcampBuilders from "../../components/BootcampBuilders"
+import bootcampTimeline from "../../data/bootcamp-timeline"
+import bootcampBuilders from "../../data/bootcamp-6-builders"
+import EmailSubscription from "../../components/EmailSubscription"
 import { NextSeo } from "next-seo"
-import { Bootcamp6PageSeo } from "../data/seo.js"
+import { Bootcamp6PageSeo } from "../../data/seo.js"
 
 export default function Home() {
   return (
@@ -167,8 +167,8 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <h3 className="mb-4">
-              Don&apos;t worry if it sounds scary, we’ve programs to help with the
-              technical tasks! 💪💪💪
+              Don&apos;t worry if it sounds scary, we’ve programs to help with
+              the technical tasks! 💪💪💪
             </h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
@@ -239,8 +239,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"

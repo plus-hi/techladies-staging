@@ -21,7 +21,7 @@ export default function Home() {
   useEffect(() => {
     preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image))
     preloadImages(
-      mentorshipTestimonials.map((testimonial) => testimonial.image)
+      mentorshipTestimonials.map((testimonial) => testimonial.image),
     )
   }, [bootcampTestimonials, mentorshipTestimonials])
 
@@ -82,7 +82,7 @@ export default function Home() {
                       name={name}
                       message={message}
                     />
-                  )
+                  ),
                 )}
               </Gallery>
             </div>

@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
               <div className="col-lg-12 col-6 mb-4">
                 <h5>
-                  <Link href="/contribute">Contribute</Link>
+                  <Link href="/contribute">Contribute to TechLadies</Link>
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>

@@ -67,7 +67,7 @@ export default function Navbar() {
           </ul>
           <div className="d-flex">
             <NavLink href="/contribute/">
-              <a className="btn btn-light">Contribute</a>
+              <a className="btn btn-light">Contribute to TechLadies</a>
             </NavLink>
           </div>
         </div>

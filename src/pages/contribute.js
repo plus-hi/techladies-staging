@@ -127,55 +127,6 @@ export default function Home() {
         </div>
 
         <div className="container py-6">
-          <div className="row gy-5 text-center">
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Microsoft"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/microsoft.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Rakuten"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/rakuten.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="ThoughtWorks"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/thoughtworks.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="ZenDesk"
-                className="mb-4 partner-logo-square"
-                src="/partners/logos/zendesk.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Carousell"
-                className="mb-4 partner-logo-square"
-                style={{ marginTop: -10 }}
-                src="/partners/logos/carousell.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Kiat SG"
-                className="mb-4 partner-logo-horizontal"
-                style={{ marginTop: 6 }}
-                src="/partners/logos/kiatsg_logo.png"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <h3 className="text-center mb-5">Volunteering FAQ</h3>

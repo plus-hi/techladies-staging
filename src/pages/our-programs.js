@@ -67,10 +67,8 @@ export default function Home() {
                 industry with industry practitioners.
               </p>
 
-              <button className="btn btn-primary">
-                <NavLink href="/mentorship/">
-                  <a className="white-text">I&apos;m Interested!</a>
-                </NavLink>
+              <button className="btn btn-primary" disabled>
+                Coming Soon!
               </button>
             </div>
             <div className="col-lg-5 col-md-6 offset-md-1">

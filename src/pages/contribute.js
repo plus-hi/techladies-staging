@@ -190,51 +190,6 @@ export default function Home() {
           }}
           title={selectedTopic}
         >
-          {selectedTopic === "TechLadies Bootcamp" && (
-            <>
-              <img
-                className="thumbnail thumbnail-xxl center-image display-block"
-                alt="TechLadies Bootcamp"
-                src="/icons/icon_TLbootcamp.png"
-              ></img>
-
-              <p>
-                Help create our most impactful program! We&apos;ve seen Bootcamp
-                grads switching careers into tech who were previously pet
-                groomer, air stewardess, and customer service rep etc. To
-                continue this program in 2023, we are looking for{" "}
-                <b>8-10 Coaches.</b>
-              </p>
-
-              <h5>Coaches Team: 8-10 Coaches</h5>
-              <p>
-                You are part of the team that teaches the Bootcamp participants
-                valuable skills to help them kickstart their journey in tech.
-                You will pair-program with the participants, follow a curriculum
-                set by the Tech Lead, and provide feedback to both the
-                participants and Tech Lead.
-              </p>
-              <p>
-                <b>
-                  <i>Ideal profile:</i>
-                </b>{" "}
-                You are a JS developer and want to gain coaching experiences.
-                You will spend around 2 hours per month before the Bootcamp
-                starts, and 6 - 8 hours per month when the Bootcamp is running.
-                You can also take on more responsibilities by being a Lead Coach
-                for a team or commit less by being an assistant Coach.
-              </p>
-
-              <a
-                className="btn btn-primary cta-button"
-                target="_blank"
-                rel="noreferrer"
-                href="https://forms.gle/yPAibeKXEbiN98qg9"
-              >
-                Volunteer for TechLadies Bootcamp
-              </a>
-            </>
-          )}
           {selectedTopic === "TechLadies Mentorship" && (
             <>
               <img

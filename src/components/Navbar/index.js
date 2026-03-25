@@ -59,11 +59,6 @@ export default function Navbar() {
                 <a className="nav-link">About</a>
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink href="/bootcamp-6/">
-                <a className="nav-link">Bootcamp #6</a>
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink href="/our-programs/">
                 <a className="nav-link">Programs</a>

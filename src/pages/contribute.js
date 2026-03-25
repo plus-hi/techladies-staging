@@ -70,8 +70,9 @@ export default function Home() {
               like-minded peers!
               <br />
               <br />
-              We are currently recruiting volunteers for 2024. If you are able to dedicate at least 4-5 hours a month and want to volunteer, we want you! Please apply by 15th
-              Nov 2023 if you are interested.
+              We are currently recruiting volunteers for 2026. Please indicate
+              your interest in volunteering with us in the form sign up! Hope to
+              see you soon.
             </p>
           </div>
 
@@ -202,7 +203,7 @@ export default function Home() {
                 Kickstart and grow women&apos;s careers in tech! Through TechLadies
                 Mentorship, we have helped women raise their visibility in tech,
                 build their portfolios, and ace their job interviews. To
-                continue this program in 2023, we are looking for{" "}
+                continue this program in 2026, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX

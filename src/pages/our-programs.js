@@ -44,7 +44,7 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              We are currently planning for new programs for 2024.
+              We are currently planning for new programs for 2026.
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>

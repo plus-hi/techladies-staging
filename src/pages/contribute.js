@@ -53,7 +53,7 @@ export default function Home() {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer with TechLadies
               </a>
@@ -295,7 +295,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Mentorship
               </a>
@@ -336,7 +336,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Community
               </a>
@@ -388,7 +388,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Communication
               </a>

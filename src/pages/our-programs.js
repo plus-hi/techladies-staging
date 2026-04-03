@@ -11,6 +11,7 @@ import Quiz from "../components/Quiz"
 import NavLink from "../components/NavLink"
 
 import preloadImages from "../utils/preloadImages"
+import prefix from "../utils/prefix"
 
 import bootcampTestimonials from "../data/bootcamp-testimonials.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
@@ -36,7 +37,7 @@ export default function Home() {
             <img
               alt="Learn about TechLadies' programs"
               className="img-fluid mb-4"
-              src="/illustrations/illus_programmes.png"
+              src={`${prefix}/illustrations/illus_programmes.png`}
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
@@ -57,7 +58,7 @@ export default function Home() {
               <img
                 alt="TechLadies Mentorship"
                 className="thumbnail thumbnail-xl mb-4"
-                src="/icons/icon_TLmentorship.png"
+                src={`${prefix}/icons/icon_TLmentorship.png`}
               />
               <h3 className="mb-4 h4">TechLadies Mentorship</h3>
               <p className="mb-4">Duration: 12 weeks</p>
@@ -95,7 +96,7 @@ export default function Home() {
             <img
               alt="TechLadies Meet"
               className="thumbnail thumbnail-xl mb-4"
-              src="/icons/icon_TLmeet.png"
+              src={`${prefix}/icons/icon_TLmeet.png`}
             />
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
@@ -116,7 +117,7 @@ export default function Home() {
             <img
               alt="TechLadies Community"
               className="thumbnail thumbnail-xl mb-4"
-              src="/icons/icon_TLcommunity.png"
+              src={`${prefix}/icons/icon_TLcommunity.png`}
             />
             <h3 className="mb-4 h4">TechLadies Community</h3>
             <p className="mb-4">

@@ -8,6 +8,7 @@ import bootcampTimeline from "../../data/bootcamp-7-timeline"
 import bootcampBuilders from "../../data/bootcamp-7-builders"
 import EmailSubscription from "../../components/EmailSubscription"
 import { BootcampPageSeo } from "../../data/seo.js"
+import prefix from "../../utils/prefix"
 
 const REGISTRATION_OPEN = true
 const SHOW_NEWSLETTER_SIGNUP = false
@@ -23,7 +24,7 @@ export default function Home() {
               <img
                 alt="TechLadies Bootcamp #7"
                 className="img-fluid"
-                src="/illustrations/Illus_astronaut.png"
+                src={`${prefix}/illustrations/Illus_astronaut.png`}
               />
             </div>
             <div className="col-md-6 offset-md-1">
@@ -60,7 +61,7 @@ export default function Home() {
                     <div className="card-body">
                       <img
                         alt="TechLadies Bootcamp #8"
-                        src="/icons/icon_TLbootcamp.png"
+                        src={`${prefix}/icons/icon_TLbootcamp.png`}
                         className="thumbnail thumbnail-xl mb-4 center-image display-block"
                       />
                       <p className="mb-4">
@@ -101,7 +102,7 @@ export default function Home() {
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -114,7 +115,7 @@ export default function Home() {
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -128,7 +129,7 @@ export default function Home() {
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -143,7 +144,7 @@ export default function Home() {
                   <div className="d-inline-flex">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"
@@ -153,7 +154,7 @@ export default function Home() {
                   <div className="d-inline-flex mb-4">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"
@@ -170,7 +171,7 @@ export default function Home() {
                   <div className="d-inline-flex">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"

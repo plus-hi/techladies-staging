@@ -1,6 +1,8 @@
+import prefix from "../utils/prefix"
+
 const programs = [
   {
-    image: "/photos/mentorship.jpg",
+    image: `${prefix}/photos/mentorship.jpg`,
     title: "Mentorship",
     link: "/our-programs/#mentorship",
     description: (
@@ -13,7 +15,7 @@ const programs = [
     ),
   },
   {
-    image: "/photos/meet.jpg",
+    image: `${prefix}/photos/meet.jpg`,
     title: "Meet",
     link: "/our-programs/#meet",
     description: (
@@ -26,7 +28,7 @@ const programs = [
     ),
   },
   {
-    image: "/photos/community.jpg",
+    image: `${prefix}/photos/community.jpg`,
     title: "Community",
     link: "/our-programs/#community",
     description: (

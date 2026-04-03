@@ -1,6 +1,8 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/team/anna.jpeg",
+    image: `${prefix}/team/anna.jpeg`,
     name: "Anna Lisicka",
     title: "Bootcamp Lead",
     description: (
@@ -17,7 +19,7 @@ export default [
     ),
   },
   {
-    image: "/team/angel.png",
+    image: `${prefix}/team/angel.png`,
     name: "Angel Felismino",
     title: "Bootcamp Lead",
     description: (
@@ -31,7 +33,7 @@ export default [
     ),
   },
   {
-    image: "/team/tejasvita.jpeg",
+    image: `${prefix}/team/tejasvita.jpeg`,
     name: "Tejasvita Rao",
     title: "Bootcamp Lead",
     description: (
@@ -49,7 +51,7 @@ export default [
     ),
   },
   {
-    image: "/team/choryi.jpeg",
+    image: `${prefix}/team/choryi.jpeg`,
     name: "Chor Yi Poon",
     title: "Product Lead",
     description: (
@@ -66,7 +68,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/purnima.jpeg",
+    image: `${prefix}/team/bootcamp6/purnima.jpeg`,
     name: "Purnima Kamath",
     title: "Tech Lead",
     description: (
@@ -81,7 +83,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/kate.png",
+    image: `${prefix}/team/bootcamp6/kate.png`,
     name: "Kate Lim",
     title: "UX/UI Lead",
     description: (
@@ -94,7 +96,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/jayli.png",
+    image: `${prefix}/team/bootcamp6/jayli.png`,
     name: "Jay Li Quek",
     title: "UX/UI Assistant",
     description: (
@@ -108,7 +110,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/sukyee.png",
+    image: `${prefix}/team/bootcamp6/sukyee.png`,
     name: "Suk Yee Gong",
     title: "Coach",
     description: (
@@ -123,7 +125,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/fara.jpeg",
+    image: `${prefix}/team/bootcamp6/fara.jpeg`,
     name: "Fara Blanco",
     title: "Coach",
     description: (
@@ -138,7 +140,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/neha.png",
+    image: `${prefix}/team/bootcamp6/neha.png`,
     name: "Neha Modi",
     title: "Coach",
     description: (
@@ -156,7 +158,7 @@ export default [
     ),
   },
   {
-    image: "../team/bootcamp6/yingtong.png",
+    image: `${prefix}/team/bootcamp6/yingtong.png`,
     name: "Ying Tong Lai",
     title: "Coach",
     description: (
@@ -170,7 +172,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/aaron.jpg",
+    image: `${prefix}/team/bootcamp6/aaron.jpg`,
     name: "Aaron Gong",
     title: "Coach",
     description: (
@@ -182,7 +184,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/thomas.png",
+    image: `${prefix}/team/bootcamp6/thomas.png`,
     name: "Thomas Chia",
     title: "Coach",
     description: (
@@ -195,7 +197,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp6/arjay.jpg",
+    image: `${prefix}/team/bootcamp6/arjay.jpg`,
     name: "Arjay Elbore",
     title: "Coach",
     description: (
@@ -207,7 +209,7 @@ export default [
     ),
   },
   {
-    image: "/team/mentorship2/akshata.png",
+    image: `${prefix}/team/mentorship2/akshata.png`,
     name: "Akshata Mohanty",
     title: "Coach",
     description: (

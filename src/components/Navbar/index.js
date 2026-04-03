@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import clsx from "clsx"
 
 import NavLink from "../NavLink"
+import prefix from "../../utils/prefix"
 
 export default function Navbar() {
   const [isExpanded, setExpanded] = useState(false)
@@ -32,7 +33,7 @@ export default function Navbar() {
           <a aria-label="TechLadies Logo" className="navbar-brand">
             <img
               alt="TechLadies Logo"
-              src="/img/logo.png"
+              src={`${prefix}/img/logo.png`}
               style={{ marginTop: -8 }}
             />
           </a>

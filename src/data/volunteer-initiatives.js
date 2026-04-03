@@ -1,6 +1,8 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/icons/icon_TLmentorship.png",
+    image: `${prefix}/icons/icon_TLmentorship.png`,
     title: "TechLadies Mentorship",
     description: (
       <>
@@ -14,7 +16,7 @@ export default [
     ),
   },
   {
-    image: "/icons/icon_TLmeet.png",
+    image: `${prefix}/icons/icon_TLmeet.png`,
     title: "TechLadies Community",
     description: (
       <>
@@ -29,7 +31,7 @@ export default [
     ),
   },
   {
-    image: "/icons/icon_TLcommunity.png",
+    image: `${prefix}/icons/icon_TLcommunity.png`,
     title: "TechLadies Communication",
     description: (
       <>

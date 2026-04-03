@@ -15,6 +15,7 @@ import volunteerInitiatives from "../data/volunteer-initiatives"
 import Modal from "../components/Modal"
 import { NextSeo } from "next-seo"
 import { VolunteerSeo } from "../data/seo.js"
+import prefix from "../utils/prefix"
 
 export default function Home() {
   const [showMoreModal, setShowMoreModal] = useState(null)
@@ -35,7 +36,7 @@ export default function Home() {
               <img
                 alt="Contribute to TechLadies"
                 className="contribute-image mb-4"
-                src="/illustrations/illus_contribute.png"
+                src={`${prefix}/illustrations/illus_contribute.png`}
               />
             </div>
             <div className="col-md-6">
@@ -107,7 +108,7 @@ export default function Home() {
                 <img
                   alt="Partner with TechLadies"
                   className="img-fluid"
-                  src="/partners/partner_stage.png"
+                  src={`${prefix}/partners/partner_stage.png`}
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
@@ -145,7 +146,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Mentorship"
-                src="/icons/icon_TLmentorship.png"
+                src={`${prefix}/icons/icon_TLmentorship.png`}
               ></img>
 
               <p>
@@ -211,7 +212,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Meet"
-                src="/icons/icon_TLmeet.png"
+                src={`${prefix}/icons/icon_TLmeet.png`}
               ></img>
 
               <p>
@@ -253,7 +254,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Community"
-                src="/icons/icon_TLcommunity.png"
+                src={`${prefix}/icons/icon_TLcommunity.png`}
               ></img>
 
               <p>

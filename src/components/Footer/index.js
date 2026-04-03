@@ -4,6 +4,7 @@ import Link from "next/link"
 import styles from "./index.module.scss"
 import NavLink from "../NavLink/index"
 import EmailSubscription from "../EmailSubscription"
+import prefix from "../../utils/prefix"
 
 export default function Footer() {
   return (
@@ -103,7 +104,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src="/img/vercel.svg" alt="Vercel Logo" width="80" />
+                    <img src={`${prefix}/img/vercel.svg`} alt="Vercel Logo" width="80" />
                   </a>
                 </p>
               </div>

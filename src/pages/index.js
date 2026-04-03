@@ -10,6 +10,7 @@ import EmailSubscription from "../components/EmailSubscription"
 
 import { NextSeo } from "next-seo"
 import { HomeSeo } from "../data/seo.js"
+import prefix from "../utils/prefix"
 
 export default function Home() {
   useEffect(() => {
@@ -26,7 +27,7 @@ export default function Home() {
               <img
                 alt="Join the TechLadies Community"
                 className="img-fluid"
-                src="/illustrations/illus_home.png"
+                src={`${prefix}/illustrations/illus_home.png`}
               />
             </div>
             <div className="col-lg-5 col-md-6 order-md-first">
@@ -59,7 +60,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className={styles.quoteBackground}>
+              <div className={styles.quoteBackground} style={{ backgroundImage: `url('${prefix}/patterns/Patternspattern4.png')` }}>
                 <h2 className="mb-0 text-center">
                   Technology should be inclusive and accessible by all.
                 </h2>
@@ -71,22 +72,22 @@ export default function Home() {
                   <img
                     className="thumbnail"
                     alt="Lillian"
-                    src="/team/lillian.jpg"
+                    src={`${prefix}/team/lillian.jpg`}
                   />
                   <img
                     className="thumbnail"
                     alt="Siew Yean"
-                    src="/team/coreteam2022/boot_siew_yean.jpg"
+                    src={`${prefix}/team/coreteam2022/boot_siew_yean.jpg`}
                   />
                   <img
                     className="thumbnail"
                     alt="Audrey"
-                    src="/team/commaudz.png"
+                    src={`${prefix}/team/commaudz.png`}
                   />
                   <img
                     className="thumbnail"
                     alt="Ena"
-                    src="/team/coreteam2022/ment_ena.jpeg"
+                    src={`${prefix}/team/coreteam2022/ment_ena.jpeg`}
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
@@ -132,7 +133,7 @@ export default function Home() {
               <img
                 alt="Press Coverage"
                 className="img-fluid"
-                src="/media/press.png"
+                src={`${prefix}/media/press.png`}
               />
             </div>
           </div>
@@ -144,7 +145,7 @@ export default function Home() {
                 <img
                   className="mb-4"
                   height="260"
-                  src="/illustrations/illus_programmes.png"
+                  src={`${prefix}/illustrations/illus_programmes.png`}
                 />
                 <h2 className="mb-4">
                   Find a range of programs for women of all technical abilities

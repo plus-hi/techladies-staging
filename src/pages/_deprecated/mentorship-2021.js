@@ -13,6 +13,7 @@ import programsFAQ from "../../data/mentorship-faq.js"
 
 import Modal from "../../components/Modal"
 import EmailSubscription from "../../components/EmailSubscription"
+import prefix from "../../utils/prefix"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -57,7 +58,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/illustrations/illus_mentorship.png"
+                src={`${prefix}/illustrations/illus_mentorship.png`}
               />
             </div>
           </div>
@@ -71,7 +72,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/goalsetting.png"
+                  src={`${prefix}/icons/mentorship/goalsetting.png`}
                 />
                 <h6>Goal Setting</h6>
                 <p>
@@ -83,7 +84,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/biweekly.png"
+                  src={`${prefix}/icons/mentorship/biweekly.png`}
                 />
                 <h6>Bi-weekly commitments</h6>
                 <p>
@@ -96,7 +97,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/presentation.png"
+                  src={`${prefix}/icons/mentorship/presentation.png`}
                 />
                 <h6>Final Presentation</h6>
                 <p>Present a final project at the end of the program.</p>
@@ -112,7 +113,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
-                src="/icons/mentorship/growth.jpg"
+                src={`${prefix}/icons/mentorship/growth.jpg`}
               />
               <h6>Grow your career in tech</h6>
               <p>
@@ -130,7 +131,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
-                src="/icons/mentorship/network.jpg"
+                src={`${prefix}/icons/mentorship/network.jpg`}
               />
               <h6>Expand your professional network</h6>
               <p>
@@ -148,7 +149,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
-                src="/icons/mentorship/programs.jpg"
+                src={`${prefix}/icons/mentorship/programs.jpg`}
               />
               <h6>Structured program</h6>
               <p>

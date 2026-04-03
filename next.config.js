@@ -1,4 +1,7 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 module.exports = {
+  basePath: basePath || undefined,
   trailingSlash: true,
   serverRuntimeConfig: {
     SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,

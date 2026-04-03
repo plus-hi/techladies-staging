@@ -45,11 +45,11 @@ export default function Home() {
                 <EmailSubscription /> */}
                 <a
                   className="btn btn-primary"
-                  href="https://forms.gle/kzYPR3BjoxWLgbaLA"
+                  href="https://forms.gle/8z7LiN9pvk4nJy8e6"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Sign Up
+                  Volunteer with TechLadies
                 </a>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default [
         Grow women&apos;s careers in tech with this 3-month program!
         <br />
         <br />
-        We are looking for <b>3 - 4 Mentorship Leads.</b>
+        We are looking for <b>Mentorship Leads.</b>
         <br />
         <br />
       </>
@@ -22,7 +22,7 @@ export default [
         insights on the tech industry.
         <br />
         <br />
-        We are looking for <b>3 - 4 Community Leads. </b>
+        We are looking for <b>Community Leads.</b>
         <br />
         <br />
       </>
@@ -37,7 +37,7 @@ export default [
         social media channels, website and social media.
         <br />
         <br />
-        We are looking for <b>3 - 4 Communication Leads.</b>
+        We are looking for <b>Communication Leads.</b>
         <br />
         <br />
       </>

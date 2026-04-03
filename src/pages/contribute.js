@@ -154,13 +154,13 @@ export default function Home() {
                 visibility in tech, build their portfolios, and ace their job
                 interviews. To continue this program in 2026, we are looking for{" "}
                 <b>
-                  3 - 4 Mentorship Leads and ~30 Mentors in Software
+                  Mentorship Leads and Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
                   Design.
                 </b>
               </p>
 
-              <h5>Core Team: 3 - 4 Mentorship Leads</h5>
+              <h5>Core Team: Mentorship Leads</h5>
               <p>
                 Lead the TechLadies Mentorship program by planning and executing
                 on this program, including sourcing mentors, recruiting mentees,
@@ -176,7 +176,7 @@ export default function Home() {
                 about 6 hours per month.
               </p>
 
-              <h5>Ad Hoc: ~30 Mentors</h5>
+              <h5>Ad Hoc: Mentors</h5>
               <p>
                 As a mentor, we will pair you with a mentee to provide her with
                 personal career guidance as she grow her career in technology.
@@ -217,10 +217,10 @@ export default function Home() {
               <p>
                 Create amazing events every quarter that connect and share
                 insights on the tech industry with our community. We are looking
-                for <b>3 - 4 Community Leads. </b>
+                for <b>Community Leads.</b>
               </p>
 
-              <h5>Core Team: 3 - 4 Community Leads</h5>
+              <h5>Core Team: Community Leads</h5>
               <p>
                 Connect and grow the TechLadies community in Asia! Community
                 Leads plan and create amazing TechLadies events! You plan the
@@ -260,10 +260,10 @@ export default function Home() {
                 Strategise and develop content for our social media, website and
                 newsletter! This team manages our monthly newsletter Tech List,
                 social media and website. We are looking for{" "}
-                <b>3 -4 Communication Leads & Communication Lead (Website).</b>
+                <b>Communication Leads & Communication Lead (Website).</b>
               </p>
 
-              <h5>Core Team: 3 - 4 Communication Leads</h5>
+              <h5>Core Team: Communication Leads</h5>
               <p>
                 TechLadies is a community - and this role is the heart of it!
                 You will grow and engage with the community via our social media

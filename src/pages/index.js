@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import Link from "next/link"
 import Gallery from "../components/Gallery"
 import NavLink from "../components/NavLink"
 import clsx from "clsx"
@@ -92,9 +93,9 @@ export default function Home() {
                   TechLadies is managed by volunteers passionate about
                   increasing gender diversity in the tech industry.
                 </p>
-                <a className="font-weight-bold" href="/about">
+                <Link className="font-weight-bold" href="/about">
                   Learn More About Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

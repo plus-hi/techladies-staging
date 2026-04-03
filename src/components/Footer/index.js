@@ -94,21 +94,6 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-12 col-6 mb-4">
-              <h5 className="mb-3">Powered by</h5>
-              <div className="d-flex">
-                <p>
-                  <a
-                    aria-label="Link to Vercel"
-                    href="https://vercel.com/?utm_source=techladies&utm_campaign=oss"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={`${prefix}/img/vercel.svg`} alt="Vercel Logo" width="80" />
-                  </a>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

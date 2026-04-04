@@ -182,22 +182,24 @@ export default function Home() {
               online for the latest industry news, highlights on awesome women
               in tech, and get support on your journey in tech.
             </p>
-            <a
-              className="btn btn-primary me-2"
-              href="https://www.instagram.com/techladiescode/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Join us on Instagram
-            </a>
-            <a
-              className="btn btn-primary"
-              href="https://www.linkedin.com/company/techladies"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Join us on LinkedIn
-            </a>
+            <div className="d-flex flex-wrap justify-content-center gap-2">
+              <a
+                className="btn btn-primary"
+                href="https://www.instagram.com/techladiescode/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Join us on Instagram
+              </a>
+              <a
+                className="btn btn-primary"
+                href="https://www.linkedin.com/company/techladies"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Join us on LinkedIn
+              </a>
+            </div>
           </div>
         </div>
       </div>

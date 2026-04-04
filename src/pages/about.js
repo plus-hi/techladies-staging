@@ -32,22 +32,24 @@ export default function Home() {
                 Our community is for women in tech and women keen in switching
                 careers into tech.
               </p>
-              <a
-                className="btn btn-primary me-2"
-                href="https://www.instagram.com/techladiescode/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join our Community on Instagram
-              </a>
-              <a
-                className="btn btn-primary"
-                href="https://www.linkedin.com/company/techladies"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join us on LinkedIn
-              </a>
+              <div className="d-flex flex-wrap gap-2">
+                <a
+                  className="btn btn-primary"
+                  href="https://www.instagram.com/techladiescode/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join us on Instagram
+                </a>
+                <a
+                  className="btn btn-primary"
+                  href="https://www.linkedin.com/company/techladies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join us on LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </div>

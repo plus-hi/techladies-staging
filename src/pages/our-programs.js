@@ -2,8 +2,6 @@ import Head from "next/head"
 
 import { useEffect } from "react"
 
-import clsx from "clsx"
-
 import Accordion from "../components/Accordion"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
@@ -51,6 +49,45 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="container py-6">
+        <h2 className="text-center mb-5">In a gist</h2>
+        <div className="row gy-5 text-center">
+          <div className="col-md-4">
+            <img
+              alt="#techladiesgather"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladiesgather.png`}
+            />
+            <h4 className="mb-3">#techladiesgather</h4>
+            <p className="text-body">
+              Networking and support to foster a feeling of community
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img
+              alt="#techladieslearn"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladieslearn.png`}
+            />
+            <h4 className="mb-3">#techladieslearn</h4>
+            <p className="text-body">
+              Peer-to-peer learning, hands-on and soft skills workshops
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img
+              alt="#techladiestry"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladiestry.png`}
+            />
+            <h4 className="mb-3">#techladiestry</h4>
+            <p className="text-body">
+              A wildcard social event - yoga/food/games and all things tech,
+              under the sun!
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="bg-gray">
         <div className="container py-6">
           <div id="mentorship" className="row gy-5">
@@ -91,6 +128,26 @@ export default function Home() {
         </div>
       </div>
       <div className="container py-6 text-center">
+        <div id="skill-events" className="row gy-5 justify-content-center">
+          <div className="col-md-6">
+            <img
+              alt="Skill Based Events"
+              className="thumbnail thumbnail-xl mb-4"
+              src={`${prefix}/icons/programs/icon_skill_events.png`}
+            />
+            <h3 className="mb-4 h4">Skill Based Events</h3>
+            <p className="mb-4">
+              Planned Byte sized events for the community to come together for
+              enhancing soft skills and mentorship
+            </p>
+
+            <button className="btn btn-primary" disabled>
+              Coming Soon!
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="container py-6 text-center">
         <div className="row gy-6">
           <div id="meet" className="col-md-5 offset-md-1">
             <img
@@ -126,12 +183,20 @@ export default function Home() {
               in tech, and get support on your journey in tech.
             </p>
             <a
-              className="btn btn-primary"
-              href="https://www.facebook.com/groups/techladiescode"
+              className="btn btn-primary me-2"
+              href="https://www.instagram.com/techladiescode/"
               target="_blank"
               rel="noreferrer"
             >
-              Join us on Facebook
+              Join us on Instagram
+            </a>
+            <a
+              className="btn btn-primary"
+              href="https://www.linkedin.com/company/techladies"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Join us on LinkedIn
             </a>
           </div>
         </div>

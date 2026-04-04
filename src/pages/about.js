@@ -33,12 +33,20 @@ export default function Home() {
                 careers into tech.
               </p>
               <a
-                className="btn btn-primary"
-                href="https://www.facebook.com/groups/techladiescode/"
+                className="btn btn-primary me-2"
+                href="https://www.instagram.com/techladiescode/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join our Community on Facebook
+                Join our Community on Instagram
+              </a>
+              <a
+                className="btn btn-primary"
+                href="https://www.linkedin.com/company/techladies"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join us on LinkedIn
               </a>
             </div>
           </div>

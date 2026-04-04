@@ -35,8 +35,8 @@ const programs = [
       <>
         Beyond programs and events, TechLadies is a community. Join us online
         for the latest industry news, highlights on awesome women in tech, and
-        get support on your journey in tech on our Facebook group and Facebook
-        page.
+        get support on your journey in tech on our LinkedIn, Instagram and
+        socials.
       </>
     ),
   },

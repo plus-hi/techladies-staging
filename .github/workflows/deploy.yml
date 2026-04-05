@@ -32,9 +32,6 @@ jobs:
         run: |
           if [ "${{ github.repository }}" = "plus-hi/techladies-staging" ]; then
             echo "NEXT_PUBLIC_BASE_PATH=/techladies-staging" >> $GITHUB_ENV
-          elif [ "${{ github.repository }}" = "TechLadies/website" ]; then
-            # Remove this line once custom domain (techladies.co) is configured
-            echo "NEXT_PUBLIC_BASE_PATH=/website" >> $GITHUB_ENV
           fi
 
       - name: Install dependencies

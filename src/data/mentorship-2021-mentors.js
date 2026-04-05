@@ -1,9 +1,11 @@
+import prefix from "../utils/prefix"
+
 export const mentorsData = {
   software: {
     title: "Software Engineering",
     mentors: [
       {
-        image: "../team/mentorship2021/softwareengineering/amanda.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/amanda.png`,
         title: "Amanda Oh",
         link: "https://www.linkedin.com/in/amandaoh/",
         description: (
@@ -19,38 +21,39 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/softwareengineering/angie.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/angie.png`,
         title: "Angie Sasmita",
         link: "https://www.linkedin.com/in/angie-sasmita/",
         description: (
           <>
-            I&apos;m a technology consultant who&apos;s passionate in building highly
-            usable products for our users. I&apos;m a polyglot with special interest
-            in mobile technologies. I&apos;m also a fervent advocate of Agile
-            practices such as TDD and CI/CD. Diversity and equal opportunity in
-            tech industry is important for me. If you are interested in entering
-            the tech industry but unsure of how, I&apos;m happy to connect!
+            I&apos;m a technology consultant who&apos;s passionate in building
+            highly usable products for our users. I&apos;m a polyglot with
+            special interest in mobile technologies. I&apos;m also a fervent
+            advocate of Agile practices such as TDD and CI/CD. Diversity and
+            equal opportunity in tech industry is important for me. If you are
+            interested in entering the tech industry but unsure of how, I&apos;m
+            happy to connect!
           </>
         ),
       },
       {
-        image: "../team/mentorship2021/softwareengineering/salonikaur.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/salonikaur.png`,
         title: "Saloni Kaur",
         link: "https://www.linkedin.com/in/saloni-kaur/",
         description: (
           <>
             Currently a Software Developer at Wise (TransferWise) with 6 amazing
-            years of software development experience up her sleeves. She&apos;s very
-            passionate about increasing female count in the IT industry. Saloni
-            has worked on softwares in a variety of industries including
-            government, finance and IOT space. She&apos;s a part of TechLadies for
-            the past 4 years from volunteering at coding workshops to being a
-            Bootcamp coach and now a Mentorship Lead and a mentor.
+            years of software development experience up her sleeves. She&apos;s
+            very passionate about increasing female count in the IT industry.
+            Saloni has worked on softwares in a variety of industries including
+            government, finance and IOT space. She&apos;s a part of TechLadies
+            for the past 4 years from volunteering at coding workshops to being
+            a Bootcamp coach and now a Mentorship Lead and a mentor.
           </>
         ),
       },
       {
-        image: "../team/mentorship2021/softwareengineering/vanessa.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/vanessa.png`,
         title: "Vanessa Cassandra",
         link: "https://www.linkedin.com/in/vanessa-cassandra/",
         description: (
@@ -62,7 +65,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/softwareengineering/aryn.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/aryn.png`,
         title: "Aryn, Yue Lin Choong",
         link: "https://www.linkedin.com/in/ychoong/",
         description: (
@@ -74,7 +77,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/softwareengineering/biju.png",
+        image: `${prefix}/team/mentorship2021/softwareengineering/biju.png`,
         title: "Biju Joseph",
         link: "https://www.linkedin.com/in/bijujosephjacob/",
         description: (
@@ -96,7 +99,7 @@ export const mentorsData = {
     title: "UI/UX Design",
     mentors: [
       {
-        image: "../team/mentorship2021/uiux/esther.png",
+        image: `${prefix}/team/mentorship2021/uiux/esther.png`,
         title: "Esther Yip",
         link: "https://www.linkedin.com/in/jingxinyip/",
         description: (
@@ -116,21 +119,21 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/uiux/pham.png",
+        image: `${prefix}/team/mentorship2021/uiux/pham.png`,
         title: "Pham Thanh Ha",
         link: "https://www.linkedin.com/in/pham-thanh-ha-6297457b/",
         description: (
           <>
             Ha is a Senior Product Designer at Carousell and is currently
             designing Trust and Social at Carousell. Previously she worked at
-            ReferralCandy and Keio-CUTE Center (NUS). She loves tech, innovation and
-            people. Ha is also a &apos;mediocre&apos; hiphop dancer and figure sketching
-            artist in her past time.
+            ReferralCandy and Keio-CUTE Center (NUS). She loves tech, innovation
+            and people. Ha is also a &apos;mediocre&apos; hiphop dancer and
+            figure sketching artist in her past time.
           </>
         ),
       },
       {
-        image: "../team/mentorship2021/uiux/julie.png",
+        image: `${prefix}/team/mentorship2021/uiux/julie.png`,
         title: "Julie",
         link: "https://www.linkedin.com/in/uxjulie/",
         description: (
@@ -148,23 +151,23 @@ export const mentorsData = {
     title: "Product Management",
     mentors: [
       {
-        image: "../team/mentorship2021/projectmanagement/ankita.png",
+        image: `${prefix}/team/mentorship2021/projectmanagement/ankita.png`,
         title: "Ankita Dmello",
         link: "https://www.linkedin.com/in/ankitard/",
         description: (
           <>
             Ankita is currently a Product Manager at Wise! She is helping to
             build out products in different markets in Asia and understand the
-            needs of Wise&apos;s local customers. Before Wise, she lived in London
-            and was a Product Manager for a beauty box called Birchbox. She
-            relocated to Singapore just before the pandemic and has started
+            needs of Wise&apos;s local customers. Before Wise, she lived in
+            London and was a Product Manager for a beauty box called Birchbox.
+            She relocated to Singapore just before the pandemic and has started
             illustrating in her free time. (P.S. You can check out her comic
             here: https://www.instagram.com/smallfry.scribbles/ )
           </>
         ),
       },
       {
-        image: "../team/mentorship2021/projectmanagement/geraldine.png",
+        image: `${prefix}/team/mentorship2021/projectmanagement/geraldine.png`,
         title: "Geraldine Low",
         link: "https://www.linkedin.com/in/geraldinelhy/",
         description: (
@@ -176,7 +179,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/projectmanagement/shweta.png",
+        image: `${prefix}/team/mentorship2021/projectmanagement/shweta.png`,
         title: "Shweta Padmanaban",
         link: "https://www.linkedin.com/in/shwetapadmanaban/",
         description: (
@@ -194,7 +197,7 @@ export const mentorsData = {
     title: "Data Science",
     mentors: [
       {
-        image: "../team/mentorship2021/datascience/catherine.png",
+        image: `${prefix}/team/mentorship2021/datascience/catherine.png`,
         title: "Catherine Khaw",
         link: "https://www.linkedin.com/in/cathkhaw/",
         description: (
@@ -216,7 +219,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/datascience/diyanaresh.png",
+        image: `${prefix}/team/mentorship2021/datascience/diyanaresh.png`,
         title: "Diya Naresh Rao",
         link: "https://www.linkedin.com/in/diyanaresh/",
         description: (
@@ -231,7 +234,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/datascience/ines.png",
+        image: `${prefix}/team/mentorship2021/datascience/ines.png`,
         title: "Ines Desemarsa",
         link: "",
         description: (
@@ -244,7 +247,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/datascience/mongsuan.png",
+        image: `${prefix}/team/mentorship2021/datascience/mongsuan.png`,
         title: "Mong Suan Yee",
         link: "https://www.linkedin.com/in/mong-suan-yee-44790b2",
         description: (
@@ -260,7 +263,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2021/datascience/olivia.png",
+        image: `${prefix}/team/mentorship2021/datascience/olivia.png`,
         title: "Olivia Tanuwidjaja",
         link: "https://www.linkedin.com/in/olivia-tanuwidjaja-5a56028a/",
         description: (
@@ -268,8 +271,8 @@ export const mentorsData = {
             Olivia has accumulated 6+ years of experience on Analytics across
             various industries and set up, gaining expertise on data
             instrumentation and solution design, product experimentation and
-            analytics, to data modeling and heuristics. She&apos;s now a Data Analyst
-            at Google, where she leverages analytics and data sciences
+            analytics, to data modeling and heuristics. She&apos;s now a Data
+            Analyst at Google, where she leverages analytics and data sciences
             techniques to fight and prevent abuse on numerous Google products.
             In her spare time, she shares about Data Analytics techniques and
             career on Medium.

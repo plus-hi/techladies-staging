@@ -1,5 +1,6 @@
 import Head from "next/head"
 import NavLink from "../components/NavLink"
+import prefix from "../utils/prefix"
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
               <img
                 alt="About TechLadies"
                 className="about-image mb-4"
-                src="/illustrations/illus_aboutus.png"
+                src={`${prefix}/illustrations/illus_aboutus.png`}
               />
             </div>
             <div className="col-md-6">
@@ -31,14 +32,24 @@ export default function Home() {
                 Our community is for women in tech and women keen in switching
                 careers into tech.
               </p>
-              <a
-                className="btn btn-primary"
-                href="https://www.facebook.com/groups/techladiescode/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join our Community on Facebook
-              </a>
+              <div className="d-flex flex-wrap gap-2">
+                <a
+                  className="btn btn-primary"
+                  href="https://www.instagram.com/techladiescode/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join us on Instagram
+                </a>
+                <a
+                  className="btn btn-primary"
+                  href="https://www.linkedin.com/company/techladies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join us on LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -49,7 +60,7 @@ export default function Home() {
                 <img
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
-                  src="/photos/history.jpg"
+                  src={`${prefix}/photos/history.jpg`}
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
@@ -89,12 +100,12 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Elisha Tan"
-                      src="/team/elisha.jpg"
+                      src={`${prefix}/team/elisha.jpg`}
                     />
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Nicole"
-                      src="/team/bootnicole.png"
+                      src={`${prefix}/team/bootnicole.png`}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">Contact us!</a>
@@ -112,12 +123,12 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Diya"
-                      src="/team/bootdiya.png"
+                      src={`${prefix}/team/bootdiya.png`}
                     />
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Cheryl"
-                      src="/team/mentorshipcheryl.png"
+                      src={`${prefix}/team/mentorshipcheryl.png`}
                     />
                   </div>
                   <a href="mailto:mentorship@techladies.co">
@@ -135,12 +146,12 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Valentina"
-                      src="/team/valentina.png"
+                      src={`${prefix}/team/valentina.png`}
                     />
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Charu"
-                      src="/team/coreteam2022/comm_charu.jpeg"
+                      src={`${prefix}/team/coreteam2022/comm_charu.jpeg`}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -160,7 +171,7 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Xena"
-                      src="/team/Xena.png"
+                      src={`${prefix}/team/Xena.png`}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -178,12 +189,12 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Pauline"
-                      src="/team/commpauline.jpg"
+                      src={`${prefix}/team/commpauline.jpg`}
                     />
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Xi Yi"
-                      src="/team/coreteam2022/boot_xi_yi.png"
+                      src={`${prefix}/team/coreteam2022/boot_xi_yi.png`}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -200,7 +211,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/photos/team.jpg"
+                src={`${prefix}/photos/team.jpg`}
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">

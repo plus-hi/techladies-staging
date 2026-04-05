@@ -1,20 +1,22 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/icons/icon_TLmentorship.png",
+    image: `${prefix}/icons/icon_TLmentorship.png`,
     title: "TechLadies Mentorship",
     description: (
       <>
         Grow women&apos;s careers in tech with this 3-month program!
         <br />
         <br />
-        We are looking for <b>3 - 4 Mentorship Leads.</b>
+        We are looking for <b>Mentorship Leads.</b>
         <br />
         <br />
       </>
     ),
   },
   {
-    image: "/icons/icon_TLmeet.png",
+    image: `${prefix}/icons/icon_TLmeet.png`,
     title: "TechLadies Community",
     description: (
       <>
@@ -22,14 +24,14 @@ export default [
         insights on the tech industry.
         <br />
         <br />
-        We are looking for <b>3 - 4 Community Leads. </b>
+        We are looking for <b>Community Leads.</b>
         <br />
         <br />
       </>
     ),
   },
   {
-    image: "/icons/icon_TLcommunity.png",
+    image: `${prefix}/icons/icon_TLcommunity.png`,
     title: "TechLadies Communication",
     description: (
       <>
@@ -37,7 +39,7 @@ export default [
         social media channels, website and social media.
         <br />
         <br />
-        We are looking for <b>3 - 4 Communication Leads.</b>
+        We are looking for <b>Communication Leads.</b>
         <br />
         <br />
       </>

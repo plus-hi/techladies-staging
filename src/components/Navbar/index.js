@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import clsx from "clsx"
 
 import NavLink from "../NavLink"
+import prefix from "../../utils/prefix"
 
 export default function Navbar() {
   const [isExpanded, setExpanded] = useState(false)
@@ -32,7 +33,7 @@ export default function Navbar() {
           <a aria-label="TechLadies Logo" className="navbar-brand">
             <img
               alt="TechLadies Logo"
-              src="/img/logo.png"
+              src={`${prefix}/img/logo.png`}
               style={{ marginTop: -8 }}
             />
           </a>
@@ -59,25 +60,15 @@ export default function Navbar() {
                 <a className="nav-link">About</a>
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink href="/bootcamp-6/">
-                <a className="nav-link">Bootcamp #6</a>
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink href="/our-programs/">
                 <a className="nav-link">Programs</a>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink href="/contribute/">
-                <a className="nav-link">Contribute</a>
-              </NavLink>
-            </li>
           </ul>
           <div className="d-flex">
-            <NavLink href="/contribute">
-              <a className="btn btn-light">Volunteer with TechLadies</a>
+            <NavLink href="/contribute/">
+              <a className="btn btn-light">Contribute to TechLadies</a>
             </NavLink>
           </div>
         </div>

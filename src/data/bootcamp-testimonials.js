@@ -1,7 +1,9 @@
+import prefix from "../utils/prefix"
+
 const exp = [
   {
-    image: "/patterns/Patternspattern1.png",
-    thumbnail: "../team/bootcamptestimonial/Shirlaine.png",
+    image: `${prefix}/patterns/Patternspattern1.png`,
+    thumbnail: `${prefix}/team/bootcamptestimonial/Shirlaine.png`,
     name: "Shirlaine Phang, Grad (2017)",
     message: (
       <>
@@ -11,8 +13,8 @@ const exp = [
     ),
   },
   {
-    image: "/patterns/Patternspattern2.png",
-    thumbnail: "../team/bootcamptestimonial/brianna.png",
+    image: `${prefix}/patterns/Patternspattern2.png`,
+    thumbnail: `${prefix}/team/bootcamptestimonial/brianna.png`,
     name: "Brianna de Gaston, Grad (2018)",
     message: (
       <>
@@ -22,8 +24,8 @@ const exp = [
     ),
   },
   {
-    image: "/patterns/Patternspattern3.png",
-    thumbnail: "../team/bootcamptestimonial/lukhei.jpeg",
+    image: `${prefix}/patterns/Patternspattern3.png`,
+    thumbnail: `${prefix}/team/bootcamptestimonial/lukhei.jpeg`,
     name: "Chong Lu Khei, Grad (2019)",
     message: (
       <>

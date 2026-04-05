@@ -1,9 +1,11 @@
+import prefix from "../utils/prefix"
+
 export const mentorsData = {
   software: {
     title: "Software Engineering",
     mentors: [
       {
-        image: "../team/mentorship2/denise.png",
+        image: `${prefix}/team/mentorship2/denise.png`,
         title: "Denise Lim",
         link: "https://www.linkedin.com/in/denise-lim-17985a4a",
         description: (
@@ -18,7 +20,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/archanaa.png",
+        image: `${prefix}/team/mentorship2/archanaa.png`,
         title: "Archanaa Ravikumar",
         link: "https://www.linkedin.com/in/ravikumar-archanaa/",
         description: (
@@ -36,7 +38,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/waihon.png",
+        image: `${prefix}/team/mentorship2/waihon.png`,
         title: "Chee Wai Hon",
         link: "https://www.linkedin.com/in/imwaihon/",
         description: (
@@ -51,7 +53,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/martin.png",
+        image: `${prefix}/team/mentorship2/martin.png`,
         title: "Martin Verdejo",
         link: "https://www.linkedin.com/in/martinverdejo",
         description: (
@@ -66,7 +68,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/akshata.png",
+        image: `${prefix}/team/mentorship2/akshata.png`,
         title: "Akshata Mohanty",
         link: "https://www.linkedin.com/in/akshatamohanty",
         description: (
@@ -80,7 +82,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/kavitha.png",
+        image: `${prefix}/team/mentorship2/kavitha.png`,
         title: "Kavitha Deenadayalan",
         link: "https://www.linkedin.com/in/kavitha-chennai-deenadayalan-50398122",
         description: (
@@ -95,7 +97,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/sowmya.png",
+        image: `${prefix}/team/mentorship2/sowmya.png`,
         title: "Sowmya Selvaraj",
         link: "https://www.linkedin.com/in/sowmya-selvaraj-42864945/",
         description: (
@@ -115,7 +117,7 @@ export const mentorsData = {
     title: "UI/UX Design",
     mentors: [
       {
-        image: "../team/mentorship2/irina.png",
+        image: `${prefix}/team/mentorship2/irina.png`,
         title: "Irina Chiew",
         link: "https://www.linkedin.com/in/irinachiew",
         description: (
@@ -133,7 +135,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/gloria.png",
+        image: `${prefix}/team/mentorship2/gloria.png`,
         title: "Gloria Chua",
         link: "https://www.linkedin.com/in/gloriachua",
         description: (
@@ -149,7 +151,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/keen.png",
+        image: `${prefix}/team/mentorship2/keen.png`,
         title: "Keen Mak",
         link: "https://www.linkedin.com/in/keenmak",
         description: (
@@ -164,7 +166,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/michelle.png",
+        image: `${prefix}/team/mentorship2/michelle.png`,
         title: "Michelle Goh",
         link: "https://www.linkedin.com/in/michellegohsh",
         description: (
@@ -180,7 +182,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/jasmine.png",
+        image: `${prefix}/team/mentorship2/jasmine.png`,
         title: "Jasmine Rojas",
         link: "https://www.linkedin.com/in/jahzrojas",
         description: (
@@ -200,7 +202,7 @@ export const mentorsData = {
     title: "Product Management",
     mentors: [
       {
-        image: "../team/mentorship2/rajni.png",
+        image: `${prefix}/team/mentorship2/rajni.png`,
         title: "Rajni Bayya",
         link: "https://www.linkedin.com/in/bayya-rajni-284b2961",
         description: (
@@ -215,7 +217,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/anna.png",
+        image: `${prefix}/team/mentorship2/anna.png`,
         title: "Anna Kolenkina",
         link: "https://www.linkedin.com/in/annakolenkina",
         description: (
@@ -230,7 +232,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/jennifer.jpg",
+        image: `${prefix}/team/mentorship2/jennifer.jpg`,
         title: "Jennifer Elizabeth",
         link: "https://www.linkedin.com/in/jennelizabeth",
         description: (
@@ -252,7 +254,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/michelleloke.png",
+        image: `${prefix}/team/mentorship2/michelleloke.png`,
         title: "Michelle Loke",
         link: "https://www.linkedin.com/in/mloke",
         description: (
@@ -267,7 +269,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/estee.png",
+        image: `${prefix}/team/mentorship2/estee.png`,
         title: "Estee Lotho",
         link: "https://www.linkedin.com/in/esteelotho",
         description: (
@@ -286,7 +288,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/janani.png",
+        image: `${prefix}/team/mentorship2/janani.png`,
         title: "Janani Chandran",
         link: "https://www.linkedin.com/in/janani-chandran-99274220",
         description: (
@@ -305,7 +307,7 @@ export const mentorsData = {
     title: "Data Science",
     mentors: [
       {
-        image: "../team/mentorship2/jan.png",
+        image: `${prefix}/team/mentorship2/jan.png`,
         title: "Jan Idziak",
         link: "https://www.linkedin.com/in/janidziak",
         description: (
@@ -325,7 +327,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/fiona.png",
+        image: `${prefix}/team/mentorship2/fiona.png`,
         title: "Fiona Tan",
         link: "https://www.linkedin.com/in/fiona-tan-an-ting",
         description: (
@@ -343,7 +345,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/pooja.jpg",
+        image: `${prefix}/team/mentorship2/pooja.jpg`,
         title: "Pooja Khemlani",
         link: "https://www.linkedin.com/in/",
         description: (
@@ -355,7 +357,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/mongsuan.png",
+        image: `${prefix}/team/mentorship2/mongsuan.png`,
         title: "Mong Suan Yee",
         link: "https://www.linkedin.com/in/mong-suan-yee-44790b2",
         description: (
@@ -371,7 +373,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship2/catherine.png",
+        image: `${prefix}/team/mentorship2/catherine.png`,
         title: "Catherine Khaw",
         link: "https://www.linkedin.com/in/cathkhaw",
         description: (

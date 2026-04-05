@@ -1,13 +1,14 @@
 import { NextSeo } from "next-seo"
-import Accordion from "../components/Accordion"
-import bootcampFAQ from "../data/bootcamp-faq.js"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import BootcampBuilders from "../components/BootcampBuilders"
-import bootcampTimeline from "../data/bootcamp-7-timeline"
-import bootcampBuilders from "../data/bootcamp-7-builders"
-import EmailSubscription from "../components/EmailSubscription"
-import { BootcampPageSeo } from "../data/seo.js"
+import Accordion from "../../components/Accordion"
+import bootcampFAQ from "../../data/bootcamp-faq.js"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import BootcampBuilders from "../../components/BootcampBuilders"
+import bootcampTimeline from "../../data/bootcamp-7-timeline"
+import bootcampBuilders from "../../data/bootcamp-7-builders"
+import EmailSubscription from "../../components/EmailSubscription"
+import { BootcampPageSeo } from "../../data/seo.js"
+import prefix from "../../utils/prefix"
 
 const REGISTRATION_OPEN = true
 const SHOW_NEWSLETTER_SIGNUP = false
@@ -23,22 +24,24 @@ export default function Home() {
               <img
                 alt="TechLadies Bootcamp #7"
                 className="img-fluid"
-                src="/illustrations/Illus_astronaut.png"
+                src={`${prefix}/illustrations/Illus_astronaut.png`}
               />
             </div>
             <div className="col-md-6 offset-md-1">
               <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
-              The TechLadies Bootcamp #9 offers 5 weekend, part-time workshops designed to empower women with Front-End Development skills.
+                The TechLadies Bootcamp #9 offers 5 weekend, part-time workshops
+                designed to empower women with Front-End Development skills.
               </p>
               <p className="mb-4 text-body large-line-height">
-              Regardless of your technical background, you will be taught by industry experts on how
-              to get started with various coding languages and software development.
+                Regardless of your technical background, you will be taught by
+                industry experts on how to get started with various coding
+                languages and software development.
               </p>
               {REGISTRATION_OPEN && (
                 <a
-                  className="btn btn-primary" 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform" 
+                  className="btn btn-primary"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform"
                   target="blank"
                   // rel="noopener"
                 >
@@ -58,7 +61,7 @@ export default function Home() {
                     <div className="card-body">
                       <img
                         alt="TechLadies Bootcamp #8"
-                        src="/icons/icon_TLbootcamp.png"
+                        src={`${prefix}/icons/icon_TLbootcamp.png`}
                         className="thumbnail thumbnail-xl mb-4 center-image display-block"
                       />
                       <p className="mb-4">
@@ -85,11 +88,12 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below.
+                  This in-person program will take place in Singapore from Sept
+                  2023 to Oct 2023. Please refer to the dates below.
                 </h4>
                 <p>
-                  We welcome women of all backgrounds and
-                  nationalities to apply.
+                  We welcome women of all backgrounds and nationalities to
+                  apply.
                 </p>
               </div>
               <div className="col-md-6">
@@ -97,66 +101,67 @@ export default function Home() {
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
                   />
                   <p>
-                  Submit your application form. Application Deadline: 16 Sep 2023
+                    Submit your application form. Application Deadline: 16 Sep
+                    2023
                   </p>
                 </div>
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
                   />
                   <p>
-                  Pre-requisites: None. Please bring your own laptop for the bootcamp. But basic computer literacy and knowledge would be beneficial
+                    Pre-requisites: None. Please bring your own laptop for the
+                    bootcamp. But basic computer literacy and knowledge would be
+                    beneficial
                   </p>
                 </div>
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
                   />
                   <p>
-                  Fee: SGD$110 for all 5 sessions (inclusive of lunch, a token and an e-certificate)
+                    Fee: SGD$110 for all 5 sessions (inclusive of lunch, a token
+                    and an e-certificate)
                   </p>
                 </div>
-                <h4 className="mb-3 h6">
-                  Workshops:
-                </h4>
+                <h4 className="mb-3 h6">Workshops:</h4>
                 <div className="flex-column">
                   <div className="d-inline-flex">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"
                     />
-                    <p>
-                     Attend the workshops.
-                    </p>
+                    <p>Attend the workshops.</p>
                   </div>
                   <div className="d-inline-flex mb-4">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"
                     />
                     <p>
-                    Practise is key! Put in at least 15 hours each week, inclusive of attending the workshops. 
-                    Additional time practising is definitely needed to pick up coding skills. 
+                      Practise is key! Put in at least 15 hours each week,
+                      inclusive of attending the workshops. Additional time
+                      practising is definitely needed to pick up coding skills.
                     </p>
                   </div>
                 </div>
@@ -165,14 +170,15 @@ export default function Home() {
                   <div className="d-inline-flex">
                     <img
                       alt="Checkbox"
-                      src="/icons/check-square.svg"
+                      src={`${prefix}/icons/check-square.svg`}
                       height="32"
                       width="32"
                       className="mr-2"
                     />
                     <p>
-                      Continue to push code, learn new languages and build your portfolio. Reach out to the TechLadies Community 
-                      to learn more about technical interviews and interview skills.
+                      Continue to push code, learn new languages and build your
+                      portfolio. Reach out to the TechLadies Community to learn
+                      more about technical interviews and interview skills.
                     </p>
                   </div>
                 </div>
@@ -222,14 +228,14 @@ export default function Home() {
             <div className="row">
               <Timeline>
                 {bootcampTimeline.map(
-                  ({date, location, title, description }) => (
+                  ({ date, location, title, description }) => (
                     <TimelineItem key={title}>
                       <h3 className="h5 text-red mb-3">{date}</h3>
                       <p className="text-red mb-3">🏢 {location}</p>
                       <h4 className="h6 mb-3">{title}</h4>
-                      <p className="pb-1">{description}</p> 
+                      <p className="pb-1">{description}</p>
                     </TimelineItem>
-                  )
+                  ),
                 )}
               </Timeline>
             </div>
@@ -261,8 +267,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"

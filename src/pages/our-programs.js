@@ -2,8 +2,6 @@ import Head from "next/head"
 
 import { useEffect } from "react"
 
-import clsx from "clsx"
-
 import Accordion from "../components/Accordion"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
@@ -11,6 +9,7 @@ import Quiz from "../components/Quiz"
 import NavLink from "../components/NavLink"
 
 import preloadImages from "../utils/preloadImages"
+import prefix from "../utils/prefix"
 
 import bootcampTestimonials from "../data/bootcamp-testimonials.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
@@ -21,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image))
     preloadImages(
-      mentorshipTestimonials.map((testimonial) => testimonial.image)
+      mentorshipTestimonials.map((testimonial) => testimonial.image),
     )
   }, [bootcampTestimonials, mentorshipTestimonials])
 
@@ -36,7 +35,7 @@ export default function Home() {
             <img
               alt="Learn about TechLadies' programs"
               className="img-fluid mb-4"
-              src="/illustrations/illus_programmes.png"
+              src={`${prefix}/illustrations/illus_programmes.png`}
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
@@ -44,51 +43,51 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              We are currently planning for new programs for 2024.
+              We are currently planning for new programs for 2026.
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>
         </div>
       </div>
-      {/* <div className="bg-gray">
-        <div id="bootcamp" className="container py-6">
-          <div className="row gy-5">
-            <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
-              <img
-                alt="TechLadies Bootcamp"
-                className="thumbnail thumbnail-xl mb-4"
-                src="/icons/icon_TLbootcamp.png"
-              />
-              <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
-              <p className="mb-4">Duration: 5 weekends</p>
-              <p className="mb-4">
-                The TechLadies Bootcamp offers 5 weekend workshops to help women
-                come into Tech.
-              </p>
-              <button className="btn btn-primary">
-                <NavLink href="/bootcamp/">
-                  <a className="white-text">I'm Interested!</a>
-                </NavLink>
-              </button>
-            </div>
-            <div className="col-md-6 col-lg-5 order-md-first">
-              <Gallery>
-                {bootcampTestimonials.map(
-                  ({ image, thumbnail, name, message }) => (
-                    <TestimonialCard
-                      image={image}
-                      key={name}
-                      thumbnail={thumbnail}
-                      name={name}
-                      message={message}
-                    />
-                  )
-                )}
-              </Gallery>
-            </div>
+      <div className="container py-6">
+        <h2 className="text-center mb-5">In a gist</h2>
+        <div className="row gy-5 text-center">
+          <div className="col-md-4">
+            <img
+              alt="#techladiesgather"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladiesgather.png`}
+            />
+            <h4 className="mb-3">#techladiesgather</h4>
+            <p className="text-body">
+              Networking and support to foster a feeling of community
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img
+              alt="#techladieslearn"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladieslearn.png`}
+            />
+            <h4 className="mb-3">#techladieslearn</h4>
+            <p className="text-body">
+              Peer-to-peer learning, hands-on and soft skills workshops
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img
+              alt="#techladiestry"
+              className="thumbnail thumbnail-xxl mb-3"
+              src={`${prefix}/icons/programs/icon_techladiestry.png`}
+            />
+            <h4 className="mb-3">#techladiestry</h4>
+            <p className="text-body">
+              A wildcard social event - yoga/food/games and all things tech,
+              under the sun!
+            </p>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="bg-gray">
         <div className="container py-6">
           <div id="mentorship" className="row gy-5">
@@ -96,7 +95,7 @@ export default function Home() {
               <img
                 alt="TechLadies Mentorship"
                 className="thumbnail thumbnail-xl mb-4"
-                src="/icons/icon_TLmentorship.png"
+                src={`${prefix}/icons/icon_TLmentorship.png`}
               />
               <h3 className="mb-4 h4">TechLadies Mentorship</h3>
               <p className="mb-4">Duration: 12 weeks</p>
@@ -106,10 +105,8 @@ export default function Home() {
                 industry with industry practitioners.
               </p>
 
-              <button className="btn btn-primary">
-                <NavLink href="/mentorship/">
-                  <a className="white-text">I&apos;m Interested!</a>
-                </NavLink>
+              <button className="btn btn-primary" disabled>
+                Coming Soon!
               </button>
             </div>
             <div className="col-lg-5 col-md-6 offset-md-1">
@@ -123,10 +120,30 @@ export default function Home() {
                       name={name}
                       message={message}
                     />
-                  )
+                  ),
                 )}
               </Gallery>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container py-6 text-center">
+        <div id="skill-events" className="row gy-5 justify-content-center">
+          <div className="col-md-6">
+            <img
+              alt="Skill Based Events"
+              className="thumbnail thumbnail-xl mb-4"
+              src={`${prefix}/icons/programs/icon_skill_events.png`}
+            />
+            <h3 className="mb-4 h4">Skill Based Events</h3>
+            <p className="mb-4">
+              Planned Byte sized events for the community to come together for
+              enhancing soft skills and mentorship
+            </p>
+
+            <button className="btn btn-primary" disabled>
+              Coming Soon!
+            </button>
           </div>
         </div>
       </div>
@@ -136,7 +153,7 @@ export default function Home() {
             <img
               alt="TechLadies Meet"
               className="thumbnail thumbnail-xl mb-4"
-              src="/icons/icon_TLmeet.png"
+              src={`${prefix}/icons/icon_TLmeet.png`}
             />
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
@@ -157,7 +174,7 @@ export default function Home() {
             <img
               alt="TechLadies Community"
               className="thumbnail thumbnail-xl mb-4"
-              src="/icons/icon_TLcommunity.png"
+              src={`${prefix}/icons/icon_TLcommunity.png`}
             />
             <h3 className="mb-4 h4">TechLadies Community</h3>
             <p className="mb-4">
@@ -165,41 +182,22 @@ export default function Home() {
               online for the latest industry news, highlights on awesome women
               in tech, and get support on your journey in tech.
             </p>
-            <a
-              className="btn btn-primary"
-              href="https://www.facebook.com/groups/techladiescode"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Join us on Facebook
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="bg-gray">
-        <div className="container py-6">
-          <div className="row gy-6">
-            <div className="col-md-5 offset-md-1 order-md-last">
-              <img
-                alt="TODO: REPLACE ME"
-                className="img-fluid"
-                src="/photos/coach.jpg"
-              />
-            </div>
-            <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
-              <h2 className="mb-4 h4">Want to be a Coach?</h2>
-              <p className="mb-4">
-                We are also on the lookout for awesome people to be a coach for
-                our programs. Connect with many others and contribute to the
-                tech community.
-              </p>
+            <div className="d-flex flex-wrap justify-content-center gap-2">
               <a
                 className="btn btn-primary"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmKUasl2XeZjaFzx58PxDwLL2WtVcI4LSKM1KaZXyOcRVvTg/viewform"
+                href="https://www.instagram.com/techladiescode/"
                 target="_blank"
                 rel="noreferrer"
               >
-                I&apos;m interested!
+                Join us on Instagram
+              </a>
+              <a
+                className="btn btn-primary"
+                href="https://www.linkedin.com/company/techladies"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Join us on LinkedIn
               </a>
             </div>
           </div>

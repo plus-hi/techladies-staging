@@ -10,11 +10,12 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2024"
+import mentorshipTimeline from "../data/mentorship-timeline-2026"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
 import Modal from "../components/Modal"
+import prefix from "../utils/prefix"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -34,7 +35,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2024</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2026</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women with personal career
                 guidance from experienced industry practitioners as they grow
@@ -56,11 +57,11 @@ export default function Home() {
                 mentee. We will be piloting a &quot;Speed Mentorship&quot; style
                 to match our mentors and mentee. The minimum commitment level
                 required is one mentoring session per month from August to
-                November 2024.
+                November 2026.
                 <br />
                 <br />
                 Registration for the TechLadies x WomenDevsSG Mentorship Program
-                2024 is now Open!
+                2026 is now Open!
               </p>
               <div className="row">
                 <div className="col-md-6">
@@ -89,7 +90,7 @@ export default function Home() {
               <img
                 alt="mentorship illustration"
                 className="img-fluid"
-                src="/illustrations/illus_mentorship.png"
+                src={`${prefix}/illustrations/illus_mentorship.png`}
               />
             </div>
           </div>
@@ -103,7 +104,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="data science engineering"
-                  src="/icons/icon_datascience.png"
+                  src={`${prefix}/icons/icon_datascience.png`}
                 />
                 <h6>Data Science / Engineering</h6>
               </div>
@@ -111,7 +112,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="product management"
-                  src="/icons/icon_productmanagement.png"
+                  src={`${prefix}/icons/icon_productmanagement.png`}
                 />
                 <h6>Product Management</h6>
               </div>
@@ -119,7 +120,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="software engineering"
-                  src="/icons/icon_softwaredevelopment.png"
+                  src={`${prefix}/icons/icon_softwaredevelopment.png`}
                 />
                 <h6>Software Engineering</h6>
               </div>
@@ -127,7 +128,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="UI UX"
-                  src="/icons/icon_UIUX.png"
+                  src={`${prefix}/icons/icon_UIUX.png`}
                 />
                 <h6>UI / UX</h6>
               </div>
@@ -142,14 +143,14 @@ export default function Home() {
               <img
                 className="container mb-6"
                 alt="mentorship growth"
-                src="/photos/team2.jpg"
+                src={`${prefix}/photos/team2.jpg`}
               />
             </div>
             <div className="col-md-3 text-center">
               <img
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="product management"
-                src="/img/paper-plane.svg"
+                src={`${prefix}/img/paper-plane.svg`}
               />
               <h6>
                 You are passionate about empowering others to succeed in their
@@ -160,7 +161,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-md mb-2 "
                 alt="product management"
-                src="/img/paper-plane.svg"
+                src={`${prefix}/img/paper-plane.svg`}
               />
               <h6>
                 You desire to make a difference for aspiring women in Tech.
@@ -170,7 +171,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="product management"
-                src="/img/paper-plane.svg"
+                src={`${prefix}/img/paper-plane.svg`}
               />
               <h6>
                 You believe mentoring is a two-way learning - for you and your
@@ -181,7 +182,7 @@ export default function Home() {
               <img
                 className="thumbnail thumbnail-md mb-2 "
                 alt="product management"
-                src="/img/paper-plane.svg"
+                src={`${prefix}/img/paper-plane.svg`}
               />
               <h6>
                 You want to contribute to the Tech community with your time and
@@ -193,7 +194,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2024</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2026</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -221,7 +222,7 @@ export default function Home() {
                     name={name}
                     message={message}
                   />
-                )
+                ),
               )}
             </Gallery>
           </div>
@@ -231,20 +232,20 @@ export default function Home() {
           <div className="container py-6">
             <div className="row">
               <h2 className="text-center mb-5">
-                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024
+                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2026
               </h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="diya"
-                  src="/team/bootdiya.png"
+                  src={`${prefix}/team/bootdiya.png`}
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="victoria"
-                  src="/team/victoria.png"
+                  src={`${prefix}/team/victoria.png`}
                 />
               </div>
             </div>
@@ -349,7 +350,7 @@ export default function Home() {
                         <p>{description}</p>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>

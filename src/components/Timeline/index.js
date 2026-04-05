@@ -8,7 +8,7 @@ function Timeline({ children }) {
           number: index + 1,
           isLast: index === children.length - 1,
           position: index % 2 === 0 ? "left" : "right",
-        })
+        }),
       )}
     </ul>
   )

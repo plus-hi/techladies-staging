@@ -1,6 +1,8 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/team/bootcamp7/jeslyn.png",
+    image: `${prefix}/team/bootcamp7/jeslyn.png`,
     name: "Jeslyn",
     title: "Bootcamp Lead",
     description: (
@@ -17,7 +19,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp7/nicole.jpg",
+    image: `${prefix}/team/bootcamp7/nicole.jpg`,
     name: "Nicole Yap",
     title: "Bootcamp Lead",
     description: (
@@ -33,7 +35,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp7/diya.jpeg",
+    image: `${prefix}/team/bootcamp7/diya.jpeg`,
     name: "Diya",
     title: "Bootcamp Lead",
     description: (
@@ -48,7 +50,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp7/akshata.png",
+    image: `${prefix}/team/bootcamp7/akshata.png`,
     name: "Akshata",
     title: "Bootcamp Lead",
     description: (
@@ -61,7 +63,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp7/thomas.jpg",
+    image: `${prefix}/team/bootcamp7/thomas.jpg`,
     name: "Thomas Chia",
     title: "Tech Lead",
     description: (
@@ -75,7 +77,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp7/andrew.jpg",
+    image: `${prefix}/team/bootcamp7/andrew.jpg`,
     name: "Andrew Fam",
     title: "Tech Lead",
     description: (

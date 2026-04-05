@@ -1,19 +1,8 @@
+import prefix from "../utils/prefix"
+
 const programs = [
-  // {
-  //   image: "/photos/bootcamp.jpg",
-  //   title: "Bootcamp",
-  //   link: "/our-programs/#bootcamp",
-  //   description: (
-  //     <>
-  //       Looking to become a professional programmer? TechLadies Bootcamp is a
-  //       part-time accelerated learning program where you learn valuable
-  //       technical skills from industry experts by by building multiple projects
-  //       from scratch.
-  //     </>
-  //   ),
-  // },
   {
-    image: "/photos/mentorship.jpg",
+    image: `${prefix}/photos/mentorship.jpg`,
     title: "Mentorship",
     link: "/our-programs/#mentorship",
     description: (
@@ -26,7 +15,7 @@ const programs = [
     ),
   },
   {
-    image: "/photos/meet.jpg",
+    image: `${prefix}/photos/meet.jpg`,
     title: "Meet",
     link: "/our-programs/#meet",
     description: (
@@ -39,15 +28,15 @@ const programs = [
     ),
   },
   {
-    image: "/photos/community.jpg",
+    image: `${prefix}/photos/community.jpg`,
     title: "Community",
     link: "/our-programs/#community",
     description: (
       <>
         Beyond programs and events, TechLadies is a community. Join us online
         for the latest industry news, highlights on awesome women in tech, and
-        get support on your journey in tech on our Facebook group and Facebook
-        page.
+        get support on your journey in tech on our LinkedIn, Instagram and
+        socials.
       </>
     ),
   },

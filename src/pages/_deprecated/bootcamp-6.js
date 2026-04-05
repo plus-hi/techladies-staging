@@ -1,15 +1,16 @@
 import Head from "next/head"
-import Accordion from "../components/Accordion"
-import bootcampFAQ from "../data/bootcamp-faq.js"
+import Accordion from "../../components/Accordion"
+import bootcampFAQ from "../../data/bootcamp-faq.js"
 
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import BootcampBuilders from "../components/BootcampBuilders"
-import bootcampTimeline from "../data/bootcamp-timeline"
-import bootcampBuilders from "../data/bootcamp-6-builders"
-import EmailSubscription from "../components/EmailSubscription"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import BootcampBuilders from "../../components/BootcampBuilders"
+import bootcampTimeline from "../../data/bootcamp-timeline"
+import bootcampBuilders from "../../data/bootcamp-6-builders"
+import EmailSubscription from "../../components/EmailSubscription"
 import { NextSeo } from "next-seo"
-import { Bootcamp6PageSeo } from "../data/seo.js"
+import { Bootcamp6PageSeo } from "../../data/seo.js"
+import prefix from "../../utils/prefix"
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
               <img
                 alt="TechLadies Bootcamp #6"
                 className="img-fluid"
-                src="/illustrations/Illus_astronaut.png"
+                src={`${prefix}/illustrations/Illus_astronaut.png`}
               />
             </div>
             <div className="col-md-6 offset-md-1">
@@ -48,7 +49,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       alt="TecLadies Bootcamp #6"
-                      src="/icons/icon_TLbootcamp.png"
+                      src={`${prefix}/icons/icon_TLbootcamp.png`}
                       className="thumbnail thumbnail-xl mb-4 center-image display-block"
                     />
                     <p className="mb-4">
@@ -87,7 +88,7 @@ export default function Home() {
               <div className="d-inline-flex mb-4">
                 <img
                   alt="Checkbox"
-                  src="/icons/check-square.svg"
+                  src={`${prefix}/icons/check-square.svg`}
                   height="32"
                   width="32"
                   className="mr-2"
@@ -107,7 +108,7 @@ export default function Home() {
                 <div className="d-inline-flex">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -120,7 +121,7 @@ export default function Home() {
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -136,7 +137,7 @@ export default function Home() {
                 <div className="d-inline-flex">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -149,7 +150,7 @@ export default function Home() {
                 <div className="d-inline-flex">
                   <img
                     alt="Checkbox"
-                    src="/icons/check-square.svg"
+                    src={`${prefix}/icons/check-square.svg`}
                     height="32"
                     width="32"
                     className="mr-2"
@@ -167,8 +168,8 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <h3 className="mb-4">
-              Don&apos;t worry if it sounds scary, we’ve programs to help with the
-              technical tasks! 💪💪💪
+              Don&apos;t worry if it sounds scary, we’ve programs to help with
+              the technical tasks! 💪💪💪
             </h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
@@ -239,8 +240,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"

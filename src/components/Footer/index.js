@@ -4,6 +4,7 @@ import Link from "next/link"
 import styles from "./index.module.scss"
 import NavLink from "../NavLink/index"
 import EmailSubscription from "../EmailSubscription"
+import prefix from "../../utils/prefix"
 
 export default function Footer() {
   return (
@@ -22,23 +23,17 @@ export default function Footer() {
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
-                    <Link href="/bootcamp">Bootcamp</Link>
-                  </li>
-                  <li>
                     <Link href="/mentorship">Mentorship</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-12 col-6 mb-4">
                 <h5>
-                  <Link href="/contribute">Contribute</Link>
+                  <Link href="/contribute">Contribute to TechLadies</Link>
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <Link href="/contribute">Volunteer</Link>
-                  </li>
-                  <li>
-                    <Link href="/contribute#donate">Partner</Link>
                   </li>
                 </ul>
               </div>
@@ -97,21 +92,6 @@ export default function Footer() {
                 >
                   <Instagram />
                 </a>
-              </div>
-            </div>
-            <div className="col-lg-12 col-6 mb-4">
-              <h5 className="mb-3">Powered by</h5>
-              <div className="d-flex">
-                <p>
-                  <a
-                    aria-label="Link to Vercel"
-                    href="https://vercel.com/?utm_source=techladies&utm_campaign=oss"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src="/img/vercel.svg" alt="Vercel Logo" width="80" />
-                  </a>
-                </p>
               </div>
             </div>
           </div>

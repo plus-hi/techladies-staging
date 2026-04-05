@@ -29,7 +29,7 @@ function Accordion({ data }) {
                   "btn",
                   "btn-link",
                   "btn-sm",
-                  styles.iconContainer
+                  styles.iconContainer,
                 )}
               >
                 {isSelected ? (

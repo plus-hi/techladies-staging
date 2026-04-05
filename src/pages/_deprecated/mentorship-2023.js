@@ -1,20 +1,21 @@
 import { useState } from "react"
 import Head from "next/head"
 
-import { mentorsData } from "../data/mentorship-2021-mentors"
+import { mentorsData } from "../../data/mentorship-2021-mentors"
 
-import Accordion from "../components/Accordion"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import MentorsCard from "../components/MentorsCard"
-import Gallery from "../components/Gallery"
-import TestimonialCard from "../components/TestimonialCard"
+import Accordion from "../../components/Accordion"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import MentorsCard from "../../components/MentorsCard"
+import Gallery from "../../components/Gallery"
+import TestimonialCard from "../../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2022"
-import programsFAQ from "../data/mentorship-faq.js"
-import mentorshipTestimonials from "../data/mentorship-testimonials.js"
+import mentorshipTimeline from "../../data/mentorship-timeline-2023"
+import programsFAQ from "../../data/mentorship-faq.js"
+import mentorshipTestimonials from "../../data/mentorship-testimonials.js"
 
-import Modal from "../components/Modal"
+import Modal from "../../components/Modal"
+import prefix from "../../utils/prefix"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -34,27 +35,50 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2022</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2023</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship provides women
-                with personal career guidance from experienced industry
-                practitioners as they grow their career in Software Engineering,
-                UI/UX Design, Data Science/Engineering/Analysis and Product
-                Management.
+                TechLadies Mentorship provides women with personal career
+                guidance from experienced industry practitioners as they grow
+                their career in Software Engineering, UI/UX Design, Data
+                Science/Engineering/Analysis and Product Management.
                 <br />
                 <br />
-                If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
+                This year, we are collaborating with{" "}
+                <a
+                  href="https://www.womenwhocode.com/singapore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  WomenWhoCode Singapore
+                </a>{" "}
+                to make this program even more impactful. There will be
+                one-to-one mentoring sessions between a mentor and mentee with
+                matching criteria. The minimum commitment level will be once a
+                month for three months.
+                <br />
+                <br />
+                Registration for the TechLadies x WWCode SG Mentorship Program
+                2023 is now Closed!
               </p>
               <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-6">
                   <a
-                    className="btn btn-primary disabled"
+                    className="btn btn-primary"
                     target="_blank"
+                    href="https://shorturl.at/eMSY7"
                     rel="noreferrer"
-                    href=""
-  
                   >
-                    Applications are now closed
+                    Sign up as a Mentor!
+                  </a>
+                </div>
+                <div className="col-md-6">
+                  <a
+                    className="btn btn-primary"
+                    target="_blank"
+                    href="https://shorturl.at/fkyB5"
+                    rel="noreferrer"
+                  >
+                    Sign up as a Mentee!
                   </a>
                 </div>
               </div>
@@ -63,7 +87,7 @@ export default function Home() {
               <img
                 alt="mentorship illustration"
                 className="img-fluid"
-                src="/illustrations/illus_mentorship.png"
+                src={`${prefix}/illustrations/illus_mentorship.png`}
               />
             </div>
           </div>
@@ -77,7 +101,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="data science engineering"
-                  src="/icons/icon_datascience.png"
+                  src={`${prefix}/icons/icon_datascience.png`}
                 />
                 <h6>Data Science / Engineering</h6>
               </div>
@@ -85,7 +109,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="product management"
-                  src="/icons/icon_productmanagement.png"
+                  src={`${prefix}/icons/icon_productmanagement.png`}
                 />
                 <h6>Product Management</h6>
               </div>
@@ -93,7 +117,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="software engineering"
-                  src="/icons/icon_softwaredevelopment.png"
+                  src={`${prefix}/icons/icon_softwaredevelopment.png`}
                 />
                 <h6>Software Engineering</h6>
               </div>
@@ -101,7 +125,7 @@ export default function Home() {
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="UI UX"
-                  src="/icons/icon_UIUX.png"
+                  src={`${prefix}/icons/icon_UIUX.png`}
                 />
                 <h6>UI / UX</h6>
               </div>
@@ -116,47 +140,58 @@ export default function Home() {
               <img
                 className="container mb-6"
                 alt="mentorship growth"
-                src="/photos/team2.jpg"
+                src={`${prefix}/photos/team2.jpg`}
               />
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You are passionate about empowering others to succeed in their career.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src={`${prefix}/img/paper-plane.svg`}
+              />
+              <h6>
+                You are passionate about empowering others to succeed in their
+                career.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You desire to make a difference for aspiring women in Tech.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src={`${prefix}/img/paper-plane.svg`}
+              />
+              <h6>
+                You desire to make a difference for aspiring women in Tech.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You believe mentoring is a two-way learning - for you and your mentees.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src={`${prefix}/img/paper-plane.svg`}
+              />
+              <h6>
+                You believe mentoring is a two-way learning - for you and your
+                mentees.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You want to contribute to the Tech community with your time and expertise.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src={`${prefix}/img/paper-plane.svg`}
+              />
+              <h6>
+                You want to contribute to the Tech community with your time and
+                expertise.
+              </h6>
             </div>
           </div>
         </div>
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2022</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2023</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -184,7 +219,7 @@ export default function Home() {
                     name={name}
                     message={message}
                   />
-                )
+                ),
               )}
             </Gallery>
           </div>
@@ -193,39 +228,47 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2022</h2>
+              <h2 className="text-center mb-5">
+                Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023
+              </h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="diya"
-                  src="/team/bootdiya.png"
+                  src={`${prefix}/team/bootdiya.png`}
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="xuqian"
-                  src="/team/evexuqian.png"
+                  alt="cheryl"
+                  src={`${prefix}/team/cheryl.png`}
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="ena"
-                  src="/team/coreteam2022/ment_ena.jpeg"
+                  alt="yumin"
+                  src={`${prefix}/team/yumin.png`}
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="ruhani"
-                  src="/team/coreteam2022/ment_ruhani.jpg"
+                  alt="toshal"
+                  src={`${prefix}/team/toshal.png`}
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="victoria"
+                  src={`${prefix}/team/victoria.png`}
                 />
               </div>
             </div>
           </div>
         </div>
-
 
         <div className="container py-6">
           <div className="row">
@@ -280,8 +323,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"
@@ -325,7 +368,7 @@ export default function Home() {
                         <p>{description}</p>
                       </div>
                     </div>
-                  )
+                  ),
                 )}
               </div>
             </div>

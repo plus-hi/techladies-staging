@@ -23,7 +23,7 @@ function TimelineItem({ children, isLast, number, position = "left" }) {
           "text-center",
           { "order-md-last": position === "left" },
           { "order-md-first": position === "right" },
-          { "offset-md-5": position === "right" }
+          { "offset-md-5": position === "right" },
         )}
       >
         <div
@@ -31,7 +31,7 @@ function TimelineItem({ children, isLast, number, position = "left" }) {
             "d-flex",
             "flex-column",
             "text-center",
-            styles.container
+            styles.container,
           )}
         >
           <div>

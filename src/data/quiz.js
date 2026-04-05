@@ -1,4 +1,5 @@
 import Link from "next/link"
+import prefix from "../utils/prefix"
 
 const REASON = {
   id: "reason",
@@ -45,7 +46,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Community"
-          src="/icons/icon_TLcommunity.png"
+          src={`${prefix}/icons/icon_TLcommunity.png`}
         />
         <h2>TechLadies Community</h2>
         <div className="col-md-10 offset-md-1">
@@ -73,7 +74,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Mentorship"
-          src="/icons/icon_TLmentorship.png"
+          src={`${prefix}/icons/icon_TLmentorship.png`}
         />
         <h2>TechLadies Mentorship</h2>
         <div className="col-md-10 offset-md-1">
@@ -96,7 +97,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Bootcamp"
-          src="/icons/icon_TLbootcamp.png"
+          src={`${prefix}/icons/icon_TLbootcamp.png`}
         />
         <h2>TechLadies Bootcamp</h2>
         <div className="col-md-10 offset-md-1">
@@ -119,7 +120,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Meet"
-          src="/icons/icon_TLmeet.png"
+          src={`${prefix}/icons/icon_TLmeet.png`}
         />
         <h2>TechLadies Meet</h2>
         <div className="col-md-10 offset-md-1">
@@ -146,7 +147,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="Join us to increase gender diversity in tech"
-          src="/illustrations/illus_contribute.png"
+          src={`${prefix}/illustrations/illus_contribute.png`}
         />
         <h2>Contribute to TechLadies</h2>
         <div className="col-md-10 offset-md-1">
@@ -168,7 +169,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Bootcamp"
-          src="/icons/icon_TLbootcamp.png"
+          src={`${prefix}/icons/icon_TLbootcamp.png`}
         />
         <h2>TechLadies Bootcamp</h2>
         <div className="col-md-10 offset-md-1">
@@ -191,7 +192,7 @@ const ACTION = {
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="Join us to increase gender diversity in tech"
-          src="/illustrations/illus_contribute.png"
+          src={`${prefix}/illustrations/illus_contribute.png`}
         />
         <h2>Ladies in Tech Feature</h2>
         <div className="col-md-10 offset-md-1">

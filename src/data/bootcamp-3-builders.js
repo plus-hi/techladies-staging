@@ -1,6 +1,8 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/team/bootcamp3/michael.jpg",
+    image: `${prefix}/team/bootcamp3/michael.jpg`,
     name: "Michael Cheng",
     title: "Coach",
     description: (
@@ -17,7 +19,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp3/tongwei.jpg",
+    image: `${prefix}/team/bootcamp3/tongwei.jpg`,
     name: "Lian Tong Wei",
     title: "Coach",
     description: (
@@ -30,7 +32,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp3/weiliang.jpg",
+    image: `${prefix}/team/bootcamp3/weiliang.jpg`,
     name: "Chew Wei-Liang",
     title: "Coach",
     description: (
@@ -44,7 +46,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp3/tanjunqi.jpg",
+    image: `${prefix}/team/bootcamp3/tanjunqi.jpg`,
     name: "Tan Jun Qi",
     title: "Coach",
     description: (
@@ -60,7 +62,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp3/danielgoh.jpg",
+    image: `${prefix}/team/bootcamp3/danielgoh.jpg`,
     name: "Daniel Goh",
     title: "Coach",
     description: (
@@ -75,7 +77,7 @@ export default [
     ),
   },
   {
-    image: "/team/bootcamp3/gia.jpg",
+    image: `${prefix}/team/bootcamp3/gia.jpg`,
     name: "Gia Phua",
     title: "Coach",
     description: (

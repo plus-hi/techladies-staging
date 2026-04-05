@@ -1,15 +1,16 @@
 import { useState } from "react"
 import Head from "next/head"
 import clsx from "clsx"
-import Accordion from "../components/Accordion"
-import bootcampFAQ from "../data/bootcamp-faq.js"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
-import BootcampBuilders from "../components/BootcampBuilders"
-import EmailSubscription from "../components/EmailSubscription"
-import bootcampTimeline from "../data/bootcamp-timeline"
-import bootcampBuildersData from "../data/bootcamp-3-builders"
+import Accordion from "../../components/Accordion"
+import bootcampFAQ from "../../data/bootcamp-faq.js"
+import Timeline from "../../components/Timeline"
+import TimelineItem from "../../components/TimelineItem"
+import BootcampBuilders from "../../components/BootcampBuilders"
+import EmailSubscription from "../../components/EmailSubscription"
+import bootcampTimeline from "../../data/bootcamp-timeline"
+import bootcampBuildersData from "../../data/bootcamp-3-builders"
 import Link from "next/link"
+import prefix from "../../utils/prefix"
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+                src={`${prefix}/img/img2_PLACEHOLDER_REMOVE_ME.png`}
               />
             </div>
           </div>
@@ -65,7 +66,7 @@ export default function Home() {
                 <img
                   className="img-fluid"
                   alr="TODO: REPLACE ME"
-                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                  src={`${prefix}/img/bg_PLACEHOLDER_REMOVE_ME.png`}
                 />
               </div>
             </div>
@@ -86,14 +87,14 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src={`${prefix}/img/bg_PLACEHOLDER_REMOVE_ME.png`}
               />
             </div>
             <div className="offset-md-1 col-md-6">
               <img
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg d-block space-bottom-10"
-                src="/icons/icon_TLmentorship.png"
+                src={`${prefix}/icons/icon_TLmentorship.png`}
               />
               <p>
                 Mountbatten Vocational School provides vocational courses for
@@ -114,14 +115,14 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src={`${prefix}/img/bg_PLACEHOLDER_REMOVE_ME.png`}
               />
             </div>
             <div className="offset-md-1 col-md-6">
               <img
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg d-block space-bottom-10"
-                src="/icons/icon_TLmentorship.png"
+                src={`${prefix}/icons/icon_TLmentorship.png`}
               />
               <p>
                 Mountbatten Vocational School provides vocational courses for
@@ -146,7 +147,7 @@ export default function Home() {
                 <img
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
-                  src="/img/img1_PLACEHOLDER_REMOVE_ME.png"
+                  src={`${prefix}/img/img1_PLACEHOLDER_REMOVE_ME.png`}
                 />
               </div>
               <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">

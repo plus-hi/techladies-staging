@@ -1,7 +1,9 @@
+import prefix from "../utils/prefix"
+
 export default [
   {
-    image: "/patterns/Patternspattern2.png",
-    thumbnail: "../team/jill.png",
+    image: `${prefix}/patterns/Patternspattern2.png`,
+    thumbnail: `${prefix}/team/jill.png`,
     name: "Jill Quek, Mentor (2019)",
     message: (
       <>
@@ -12,8 +14,8 @@ export default [
   },
 
   {
-    image: "/patterns/Patternspattern3.png",
-    thumbnail: "../team/mentorship2020/bridgetlee.jpg",
+    image: `${prefix}/patterns/Patternspattern3.png`,
+    thumbnail: `${prefix}/team/mentorship2020/bridgetlee.jpg`,
     name: "Bridget Lee, Mentee (2020)",
     message: (
       <>
@@ -24,8 +26,8 @@ export default [
   },
 
   {
-    image: "/patterns/Patternspattern4.png",
-    thumbnail: "../team/mentorship2020/maryana.jpeg",
+    image: `${prefix}/patterns/Patternspattern4.png`,
+    thumbnail: `${prefix}/team/mentorship2020/maryana.jpeg`,
     name: "Maryana Hermawan, Mentee (2020)",
     message: (
       <>

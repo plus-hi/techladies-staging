@@ -163,11 +163,11 @@ export default function Home() {
             </p>
             <a
               className="btn btn-primary"
-              href="https://www.eventbrite.sg/o/techladies-11040976589"
+              href="https://luma.com/user/usr-kXtH2e6ihZuXcEd"
               target="_blank"
               rel="noreferrer"
             >
-              See our Events
+              See our Events on Luma
             </a>
           </div>
           <div id="community" className="col-md-5">

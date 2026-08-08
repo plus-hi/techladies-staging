@@ -48,8 +48,8 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              Our 2026 programs are taking shape — and our events are already
-              running. Come join us at the next one.
+              Here&apos;s what&apos;s coming up. Come say hello at our next
+              event!
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>

@@ -3,6 +3,7 @@ import Head from "next/head"
 import { useEffect } from "react"
 
 import Accordion from "../components/Accordion"
+import EventCard from "../components/EventCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 import Quiz from "../components/Quiz"
@@ -12,11 +13,15 @@ import preloadImages from "../utils/preloadImages"
 import prefix from "../utils/prefix"
 
 import bootcampTestimonials from "../data/bootcamp-testimonials.js"
+import events from "../data/events.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 import programsFAQ from "../data/programs-faq.js"
 import quiz from "../data/quiz.js"
 
 export default function Home() {
+  const upcomingEvents = events.filter(({ status }) => status === "upcoming")
+  const pastEvents = events.filter(({ status }) => status === "past")
+
   useEffect(() => {
     preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image))
     preloadImages(
@@ -43,12 +48,36 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              We are currently planning for new programs for 2026.
+              Our 2026 programs are taking shape — and our events are already
+              running. Come join us at the next one.
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>
         </div>
       </div>
+      {upcomingEvents.length > 0 && (
+        <div id="events" className="bg-gray">
+          <div className="container py-6">
+            <h2 className="text-center mb-5">Upcoming events</h2>
+            <div className="row gy-4 justify-content-center">
+              {upcomingEvents.map((event) => (
+                <div className="col-lg-10" key={event.url}>
+                  <EventCard wide {...event} />
+                </div>
+              ))}
+            </div>
+            <p className="text-center mt-5 mb-0">
+              <a
+                href="https://luma.com/user/usr-kXtH2e6ihZuXcEd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                See all our events on Luma →
+              </a>
+            </p>
+          </div>
+        </div>
+      )}
       <div className="container py-6">
         <h2 className="text-center mb-5">In a gist</h2>
         <div className="row gy-5 text-center">
@@ -203,6 +232,20 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {pastEvents.length > 0 && (
+        <div className="bg-gray">
+          <div className="container py-6">
+            <h2 className="text-center mb-5">Past events</h2>
+            <div className="row gy-4">
+              {pastEvents.map((event) => (
+                <div className="col-md-4" key={event.url}>
+                  <EventCard {...event} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
       <div className="container py-6">
         <div className="row">
           <div className="col-md-8 offset-md-2">

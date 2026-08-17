@@ -66,15 +66,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <p className="text-center mt-5 mb-0">
-              <a
-                href="https://luma.com/user/usr-kXtH2e6ihZuXcEd"
-                target="_blank"
-                rel="noreferrer"
-              >
-                See all our events on Luma →
-              </a>
-            </p>
           </div>
         </div>
       )}

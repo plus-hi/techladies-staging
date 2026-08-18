@@ -69,6 +69,20 @@ export default function Home() {
           </div>
         </div>
       )}
+      {pastEvents.length > 0 && (
+        <div className="bg-gray">
+          <div className="container py-6">
+            <h2 className="text-center mb-5">Past events</h2>
+            <div className="row gy-4">
+              {pastEvents.map((event) => (
+                <div className="col-md-4" key={event.url}>
+                  <EventCard {...event} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
       <div className="container py-6">
         <h2 className="text-center mb-5">In a gist</h2>
         <div className="row gy-5 text-center">
@@ -108,7 +122,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gray">
+      {/* <div className="bg-gray">
         <div className="container py-6">
           <div id="mentorship" className="row gy-5">
             <div className="col-lg-6 col-md-5">
@@ -146,7 +160,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="container py-6 text-center">
         <div id="skill-events" className="row gy-5 justify-content-center">
           <div className="col-md-6">
@@ -223,20 +237,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {pastEvents.length > 0 && (
-        <div className="bg-gray">
-          <div className="container py-6">
-            <h2 className="text-center mb-5">Past events</h2>
-            <div className="row gy-4">
-              {pastEvents.map((event) => (
-                <div className="col-md-4" key={event.url}>
-                  <EventCard {...event} />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
       <div className="container py-6">
         <div className="row">
           <div className="col-md-8 offset-md-2">
